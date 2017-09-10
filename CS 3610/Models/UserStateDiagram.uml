@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="idModel" name="UserStateDiagramModel">
+  <packagedElement xmi:type="uml:Package" xmi:id="idPackage" name="UserStateDiagramPackage">
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="idStateMachine" name="UserStateDiagramStateMachine">
+      <region xmi:id="idRegion" name="MainRegion">
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_ZEQIc8DZEd6Q-vd1BqDNuQ" name=""/>
+        <subvertex xmi:type="uml:State" xmi:id="_aK4ZUsDZEd6Q-vd1BqDNuQ" name="Inactive"/>
+        <subvertex xmi:type="uml:State" xmi:id="_rEjsMsDZEd6Q-vd1BqDNuQ" name="Active"/>
+        <subvertex xmi:type="uml:State" xmi:id="_up40IsDZEd6Q-vd1BqDNuQ" name="Restricted"/>
+        <subvertex xmi:type="uml:State" xmi:id="_xSa8osDZEd6Q-vd1BqDNuQ" name="Collections"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_ttLz88DcEd6Q-vd1BqDNuQ" name=""/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_M3jlQMDdEd6Q-vd1BqDNuQ" name="Enrolled?" kind="choice"/>
+        <subvertex xmi:type="uml:State" xmi:id="_E_7FMsDeEd6Q-vd1BqDNuQ" name="ItemLimitReached"/>
+        <subvertex xmi:type="uml:State" xmi:id="_Q-cFosDeEd6Q-vd1BqDNuQ" name="InDebt"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_VQeik8DeEd6Q-vd1BqDNuQ" name="" kind="choice"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_KbMJIMDgEd6Q-vd1BqDNuQ" name="" kind="choice"/>
+        <transition xmi:id="_yaLulsDcEd6Q-vd1BqDNuQ" name="" kind="local" source="_ttLz88DcEd6Q-vd1BqDNuQ" target="_aK4ZUsDZEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_z0fJZcDcEd6Q-vd1BqDNuQ" name="Transition2" kind="local" source="_aK4ZUsDZEd6Q-vd1BqDNuQ" target="_rEjsMsDZEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_RlJ81cDdEd6Q-vd1BqDNuQ" name="Initial Check" kind="local" source="_aK4ZUsDZEd6Q-vd1BqDNuQ" target="_M3jlQMDdEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_SOIoZcDdEd6Q-vd1BqDNuQ" name="Yes" kind="local" source="_M3jlQMDdEd6Q-vd1BqDNuQ" target="_rEjsMsDZEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_VONHJMDdEd6Q-vd1BqDNuQ" name="No" kind="local" source="_M3jlQMDdEd6Q-vd1BqDNuQ" target="_aK4ZUsDZEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_b55tpcDeEd6Q-vd1BqDNuQ" name="Items Overdue" kind="local" source="_rEjsMsDZEd6Q-vd1BqDNuQ" target="_VQeik8DeEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_kBNL9cDeEd6Q-vd1BqDNuQ" name="Item Lost/Damaged" kind="local" source="_VQeik8DeEd6Q-vd1BqDNuQ" target="_xSa8osDZEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_p0jDlcDeEd6Q-vd1BqDNuQ" name="Fine Accrued for Overdue Books" kind="local" source="_VQeik8DeEd6Q-vd1BqDNuQ" target="_Q-cFosDeEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_xERZpMDeEd6Q-vd1BqDNuQ" name="Grace Period Expired" kind="local" source="_Q-cFosDeEd6Q-vd1BqDNuQ" target="_xSa8osDZEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_-XRgxcDeEd6Q-vd1BqDNuQ" name="Max Items Checked Out" kind="local" source="_rEjsMsDZEd6Q-vd1BqDNuQ" target="_E_7FMsDeEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_NxbhpMDfEd6Q-vd1BqDNuQ" name="Items Overdue" kind="local" source="_E_7FMsDeEd6Q-vd1BqDNuQ" target="_VQeik8DeEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_gCbMxcDfEd6Q-vd1BqDNuQ" name="Offensive Conduct" kind="local" source="_rEjsMsDZEd6Q-vd1BqDNuQ" target="_up40IsDZEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_IKq7MMDkEd6e3vFs9SdKkA" name="Petition for Library Priveleges" kind="local" source="_up40IsDZEd6Q-vd1BqDNuQ" target="_KbMJIMDgEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_SqAn4MDkEd6e3vFs9SdKkA" name="Granted" kind="local" source="_KbMJIMDgEd6Q-vd1BqDNuQ" target="_rEjsMsDZEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_VFPUMMDkEd6e3vFs9SdKkA" name="Denied" kind="local" source="_KbMJIMDgEd6Q-vd1BqDNuQ" target="_up40IsDZEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_s8Je8MDkEd6e3vFs9SdKkA" name="Items Returned" kind="local" source="_E_7FMsDeEd6Q-vd1BqDNuQ" target="_rEjsMsDZEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_-INiUMDkEd6e3vFs9SdKkA" name="Paid Fines" kind="local" source="_Q-cFosDeEd6Q-vd1BqDNuQ" target="_rEjsMsDZEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_Di9TwMDlEd6e3vFs9SdKkA" name="Paid Fees" kind="local" source="_xSa8osDZEd6Q-vd1BqDNuQ" target="_rEjsMsDZEd6Q-vd1BqDNuQ"/>
+      </region>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

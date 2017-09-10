@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CS 4520 Project/Models/Weblayoutcustom.umldi&apos; to &apos;NetworkLayout.umldi&apos;" description="Rename resource &apos;Weblayoutcustom.umldi&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Models/Weblayoutcustom.umldi" name="NetworkLayout.umldi" stamp="1276543230801" updateReferences="true"/>
+</session>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="idModel" name="SystemStateDiagramModel">
+  <packagedElement xmi:type="uml:Package" xmi:id="idPackage" name="SystemStateDiagramPackage">
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="idStateMachine" name="SystemStateDiagramStateMachine">
+      <region xmi:id="idRegion" name="MainRegion">
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_jvhR8sDREd6Q-vd1BqDNuQ" name="Pseudostate1" kind="join"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_rBxXkMDREd6Q-vd1BqDNuQ" name="Pseudostate2"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_rdMIQsDREd6Q-vd1BqDNuQ" name="FinalState1"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_xnegQ8DREd6Q-vd1BqDNuQ" name=""/>
+        <subvertex xmi:type="uml:State" xmi:id="_2S_NIMDREd6Q-vd1BqDNuQ" name="Ready"/>
+        <subvertex xmi:type="uml:State" xmi:id="_BmStYsDSEd6Q-vd1BqDNuQ" name="Authenticating"/>
+        <subvertex xmi:type="uml:State" xmi:id="_L8DnUsDSEd6Q-vd1BqDNuQ" name="LoggedIn"/>
+        <subvertex xmi:type="uml:State" xmi:id="_PThSYsDSEd6Q-vd1BqDNuQ" name="Processing"/>
+        <subvertex xmi:type="uml:State" xmi:id="_R-lxgsDSEd6Q-vd1BqDNuQ" name="LoggedOut"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_Y5Al8MDSEd6Q-vd1BqDNuQ" name="" kind="choice"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_8n6c88DTEd6Q-vd1BqDNuQ" name="Pseudostate3" kind="junction"/>
+        <transition xmi:id="_WrJnRMDSEd6Q-vd1BqDNuQ" name="" kind="local" source="_xnegQ8DREd6Q-vd1BqDNuQ" target="_2S_NIMDREd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_Xy-K9cDSEd6Q-vd1BqDNuQ" name="Card Swipe" kind="local" source="_2S_NIMDREd6Q-vd1BqDNuQ" target="_BmStYsDSEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_c55ohcDSEd6Q-vd1BqDNuQ" name="PIN Code" kind="local" source="_BmStYsDSEd6Q-vd1BqDNuQ" target="_Y5Al8MDSEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_fv165MDSEd6Q-vd1BqDNuQ" name="Success" kind="local" source="_Y5Al8MDSEd6Q-vd1BqDNuQ" target="_L8DnUsDSEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_grcnhMDSEd6Q-vd1BqDNuQ" name="Failure" kind="local" source="_Y5Al8MDSEd6Q-vd1BqDNuQ" target="_2S_NIMDREd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_J_9RlcDTEd6Q-vd1BqDNuQ" name="" kind="local" source="_2S_NIMDREd6Q-vd1BqDNuQ" target="_rdMIQsDREd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_QIAN5cDTEd6Q-vd1BqDNuQ" name="Processing Completed" kind="local" source="_L8DnUsDSEd6Q-vd1BqDNuQ" target="_PThSYsDSEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_R2RtlMDTEd6Q-vd1BqDNuQ" name="Function Selection" kind="local" source="_PThSYsDSEd6Q-vd1BqDNuQ" target="_L8DnUsDSEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_0wjfJMDTEd6Q-vd1BqDNuQ" name="Transition1" kind="local" source="_PThSYsDSEd6Q-vd1BqDNuQ" target="_2S_NIMDREd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_IqT31cDUEd6Q-vd1BqDNuQ" name="Logout" kind="local" source="_L8DnUsDSEd6Q-vd1BqDNuQ" target="_R-lxgsDSEd6Q-vd1BqDNuQ"/>
+        <transition xmi:id="_OqnNZMDUEd6Q-vd1BqDNuQ" name="Logout Completed" kind="local" source="_R-lxgsDSEd6Q-vd1BqDNuQ" target="_2S_NIMDREd6Q-vd1BqDNuQ"/>
+      </region>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

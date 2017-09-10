@@ -1,0 +1,1703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="Weblayoutcustom">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="Use Case View"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_wSRJAHFzEduxYLkhQoh7Ag" name="Logical View">
+    <ownedComment xmi:id="_TPJeYDt8Ed-mh7NwBQfiOw">
+      <body>usernames</body>
+    </ownedComment>
+    <ownedComment xmi:id="_rYzJgDt9Ed-mh7NwBQfiOw">
+      <body>customerinfo&#xD;
+</body>
+    </ownedComment>
+    <ownedComment xmi:id="_s7H6EDuMEd-LHKmdUFJgNA">
+      <body>Start:</body>
+    </ownedComment>
+    <ownedComment xmi:id="_K_cqEDwhEd-piaG2GHSWwg">
+      <body>End:</body>
+    </ownedComment>
+    <ownedComment xmi:id="_UKrJYHpwEd-E3dFN_SwnJw">
+      <body>Start:</body>
+    </ownedComment>
+    <ownedRule xmi:id="_UZYc4jt8Ed-mh7NwBQfiOw" name="Constraint1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6WChuDt5Ed-mh7NwBQfiOw" name="Me @ Science Building" isLeaf="true" classifierBehavior="_zCnvsDt_Ed-mh7NwBQfiOw">
+      <generalization xmi:id="_8DrvRTt5Ed-mh7NwBQfiOw" general="_7K2p2Dt5Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_mC4VFDt6Ed-mh7NwBQfiOw" general="_eHkEUDt6Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_dB8cJHfrEd-ajacxbal4EQ" general="_7K2p2Dt5Ed-mh7NwBQfiOw"/>
+      <ownedAttribute xmi:id="_wZKOkDuJEd-LHKmdUFJgNA" name="btn: login/logout"/>
+      <ownedAttribute xmi:id="_yin1cDuJEd-LHKmdUFJgNA" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_gNp-YDuLEd-LHKmdUFJgNA" name="130.218.225.4"/>
+      <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_zCnvsDt_Ed-mh7NwBQfiOw">
+        <region xmi:id="_zCnvsTt_Ed-mh7NwBQfiOw"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7K2p2Dt5Ed-mh7NwBQfiOw" name="Local Acces Point" clientDependency="_5ubNdDuMEd-LHKmdUFJgNA _OQimpTuNEd-LHKmdUFJgNA">
+      <generalization xmi:id="_ljylVDt6Ed-mh7NwBQfiOw" general="_ZeUBQDt6Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_-QgG8zuLEd-LHKmdUFJgNA" general="_eHkEUDt6Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_IVJoAzwWEd-piaG2GHSWwg" general="_6WChuDt5Ed-mh7NwBQfiOw"/>
+      <ownedAttribute xmi:id="_0769MDuLEd-LHKmdUFJgNA" name="btn: login"/>
+      <ownedAttribute xmi:id="_4EdbcDuLEd-LHKmdUFJgNA" name="btn: signup"/>
+      <ownedAttribute xmi:id="_uSzxAEzrEd-1p8YNpD8H1A" name="btn: login/logout"/>
+      <ownedAttribute xmi:id="_uSzxAUzrEd-1p8YNpD8H1A" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_zjRlEEzrEd-1p8YNpD8H1A" name="btn: loginexecute"/>
+      <ownedAttribute xmi:id="_2_wTAEzrEd-1p8YNpD8H1A" name="btn: loginreset"/>
+      <ownedAttribute xmi:id="_6fzSUEzrEd-1p8YNpD8H1A" name="btn: signupexecute"/>
+      <ownedAttribute xmi:id="_6fzSUUzrEd-1p8YNpD8H1A" name="10.230.40.1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_U1zlGDt6Ed-mh7NwBQfiOw" name="Class1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZeUBQDt6Ed-mh7NwBQfiOw" name="Possible Server or Router" clientDependency="_LUV7RDuNEd-LHKmdUFJgNA">
+      <generalization xmi:id="_FEtOZDt7Ed-mh7NwBQfiOw" general="_7jCD0Dt6Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_p_YKYzt7Ed-mh7NwBQfiOw" general="_b18xmDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_qWS1kzt7Ed-mh7NwBQfiOw" general="_g8ploDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_vW3o9Dt6Ed-mh7NwBQfiOw" general="_tI7xwDt6Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_Gi4clDt7Ed-mh7NwBQfiOw" general="_BANeMDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_XoEb5Dt7Ed-mh7NwBQfiOw" general="_Urt_iDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_2eerdHfsEd-ajacxbal4EQ" general="_t6wW4HfsEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_6h-j03fxEd-ajacxbal4EQ" general="_uTLrsHfxEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_TiqdADuMEd-LHKmdUFJgNA" name="btn: order"/>
+      <ownedAttribute xmi:id="_aKnTMD0SEd-g2JveKmkCYw" name="btn: salamanders"/>
+      <ownedAttribute xmi:id="_aKnTMT0SEd-g2JveKmkCYw" name="btn: newts"/>
+      <ownedAttribute xmi:id="_aKnTMj0SEd-g2JveKmkCYw" name="btn: aquatics"/>
+      <ownedAttribute xmi:id="_daTiUD0SEd-g2JveKmkCYw" name="btn: signout"/>
+      <ownedAttribute xmi:id="_o3A2MD0SEd-g2JveKmkCYw" name="btn: index"/>
+      <ownedAttribute xmi:id="_GrmrYEztEd-1p8YNpD8H1A" name="130.218.225.1"/>
+      <ownedAttribute xmi:id="_McRCcEztEd-1p8YNpD8H1A" name="dynamic input: product information"/>
+      <ownedAttribute xmi:id="_0sqHoEzuEd-1p8YNpD8H1A" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_JEi4sEztEd-1p8YNpD8H1A" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_FHMc4EzuEd-1p8YNpD8H1A" name="btn: clear"/>
+      <ownedAttribute xmi:id="_FSDpEEzuEd-1p8YNpD8H1A" name="btn: gotocart"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_eHkEUDt6Ed-mh7NwBQfiOw" name="Catalog.xhtml" clientDependency="_HNKDdDuNEd-LHKmdUFJgNA">
+      <generalization xmi:id="_67Q1wDwVEd-piaG2GHSWwg" general="_7K2p2Dt5Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_HGxwYzwWEd-piaG2GHSWwg" general="_6WChuDt5Ed-mh7NwBQfiOw"/>
+      <ownedAttribute xmi:id="_DqOxADwWEd-piaG2GHSWwg" name="btn: index"/>
+      <ownedAttribute xmi:id="_E66VwDwWEd-piaG2GHSWwg" name="btn: login"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_oEdyWDt6Ed-mh7NwBQfiOw" name=""/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_q4VBEDt6Ed-mh7NwBQfiOw" name="LoginPage.html"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sj5LADt6Ed-mh7NwBQfiOw" name="LoginPage.html"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tI7xwDt6Ed-mh7NwBQfiOw" name="Potential Subnetwork Center">
+      <generalization xmi:id="_j20XVHftEd-ajacxbal4EQ" general="_aDFzcHftEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_pEmq1HftEd-ajacxbal4EQ" general="_fvmqUHftEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_8vx09HftEd-ajacxbal4EQ" general="_1voL8HftEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_Gd3D1HfuEd-ajacxbal4EQ" general="_Bh6HMHfuEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_G7nW1HfuEd-ajacxbal4EQ" general="_-KwlMHftEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_jaA_NHfwEd-ajacxbal4EQ" general="_fNpscHfwEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_SkNNxHfyEd-ajacxbal4EQ" general="_PSryoHfyEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_UFsHwDwfEd-piaG2GHSWwg" name="btn: createcustomer"/>
+      <ownedAttribute xmi:id="_WQsmwDwfEd-piaG2GHSWwg" name="btn: createusername"/>
+      <ownedAttribute xmi:id="_Z8-EMDwfEd-piaG2GHSWwg" name="btn: updatecustomer"/>
+      <ownedAttribute xmi:id="_Z8-EMTwfEd-piaG2GHSWwg" name="btn: updateusername"/>
+      <ownedAttribute xmi:id="_dcGdgDwfEd-piaG2GHSWwg" name="btn: deletecustomer"/>
+      <ownedAttribute xmi:id="_dcGdgTwfEd-piaG2GHSWwg" name="btn: deleteusername"/>
+      <ownedAttribute xmi:id="_C1spcEzwEd-1p8YNpD8H1A" name="10.2.0.165"/>
+      <ownedAttribute xmi:id="_C1spcUzwEd-1p8YNpD8H1A" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_JwJTEEzwEd-1p8YNpD8H1A" name="input: new product information"/>
+      <ownedAttribute xmi:id="_N4N7sEzwEd-1p8YNpD8H1A" name="btn: createproduct"/>
+      <ownedAttribute xmi:id="_Rkn8AEzwEd-1p8YNpD8H1A" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_R9Uv4EzwEd-1p8YNpD8H1A" name="btn: updateproducts"/>
+      <ownedAttribute xmi:id="_WACXYEzwEd-1p8YNpD8H1A" name="input: new customer information"/>
+      <ownedAttribute xmi:id="_WACXYUzwEd-1p8YNpD8H1A" name="btn: createcustomer"/>
+      <ownedAttribute xmi:id="_WACXYkzwEd-1p8YNpD8H1A" name="dynamic table: customer information"/>
+      <ownedAttribute xmi:id="_WACXY0zwEd-1p8YNpD8H1A" name="btn: updatecustomers"/>
+      <ownedAttribute xmi:id="_nmi7EEzwEd-1p8YNpD8H1A" name="dynamic table: sales records"/>
+      <ownedAttribute xmi:id="_p0xtMEzwEd-1p8YNpD8H1A" name="dynamic tables: purchases"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7jCD0Dt6Ed-mh7NwBQfiOw" name="Potential Subnetwork Center" clientDependency="_ZGte9DuNEd-LHKmdUFJgNA">
+      <generalization xmi:id="_ScPW1HftEd-ajacxbal4EQ" general="_HD9P8HftEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_AkNzFHfyEd-ajacxbal4EQ" general="_85_kEHfxEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_PKrJEDuMEd-LHKmdUFJgNA" name="btn: checkout"/>
+      <ownedAttribute xmi:id="_cyWDkEzuEd-1p8YNpD8H1A" name="10.2.0.138"/>
+      <ownedAttribute xmi:id="_2OQdQEzuEd-1p8YNpD8H1A" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_2OQdQUzuEd-1p8YNpD8H1A" name="btn: clear"/>
+      <ownedAttribute xmi:id="_2OQdQkzuEd-1p8YNpD8H1A" name="btn: gotocart"/>
+      <ownedAttribute xmi:id="_3JxDQEzuEd-1p8YNpD8H1A" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_cyWDkUzuEd-1p8YNpD8H1A" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_cyWDkkzuEd-1p8YNpD8H1A" name="btn: keepshopping"/>
+      <ownedAttribute xmi:id="_cyWDk0zuEd-1p8YNpD8H1A" name="btn: update"/>
+      <ownedAttribute xmi:id="_i-hR8EzuEd-1p8YNpD8H1A" name="btn: checkout"/>
+      <ownedAttribute xmi:id="_lzIuoEzuEd-1p8YNpD8H1A" name="output: total"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_A0AOMDt7Ed-mh7NwBQfiOw" name="order.html"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BANeMDt7Ed-mh7NwBQfiOw" name="Potential Subnetwork Center">
+      <generalization xmi:id="_WPrWxHfuEd-ajacxbal4EQ" general="_JUZMEHfuEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_QqfWADuMEd-LHKmdUFJgNA" name="btn: confirm">
+        <qualifier xmi:id="_5jmBYEzuEd-1p8YNpD8H1A" name="btn: login/logout"/>
+        <qualifier xmi:id="_5jmBYUzuEd-1p8YNpD8H1A" name="links:  navbar"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_51mXYEzuEd-1p8YNpD8H1A" name="btn: login/logout"/>
+      <ownedAttribute xmi:id="_51mXYUzuEd-1p8YNpD8H1A" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_6rT3YEzuEd-1p8YNpD8H1A" name="output: username">
+        <qualifier xmi:id="_6zC3EEzuEd-1p8YNpD8H1A" name="output: total"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_6-f5IEzuEd-1p8YNpD8H1A" name="output: email"/>
+      <ownedAttribute xmi:id="_Ikhp8EzvEd-1p8YNpD8H1A" name="input: recipient information"/>
+      <ownedAttribute xmi:id="_OJu-8EzvEd-1p8YNpD8H1A" name="input: billing information"/>
+      <ownedAttribute xmi:id="_VGptwEzvEd-1p8YNpD8H1A" name="input: credit card information"/>
+      <ownedAttribute xmi:id="_Z2TTwEzvEd-1p8YNpD8H1A" name="checkbox: same">
+        <qualifier xmi:id="_Z2TTwUzvEd-1p8YNpD8H1A" name="output: total"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AaCUwEzvEd-1p8YNpD8H1A" name="btn: keepshopping"/>
+      <ownedAttribute xmi:id="_AaCUwUzvEd-1p8YNpD8H1A" name="10.2.0.190"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Urt_iDt7Ed-mh7NwBQfiOw" name="Potential Subnetwork Center">
+      <generalization xmi:id="_V9v5RHfuEd-ajacxbal4EQ" general="_NgcVwHfuEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_gYEmRHfyEd-ajacxbal4EQ" general="_derXQHfyEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_1VO_oDuMEd-LHKmdUFJgNA" name="btn: end"/>
+      <ownedAttribute xmi:id="_qpUlAEzvEd-1p8YNpD8H1A" name="btn: login/logout"/>
+      <ownedAttribute xmi:id="_qpUlAUzvEd-1p8YNpD8H1A" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_qpUlAkzvEd-1p8YNpD8H1A" name="output: username">
+        <qualifier xmi:id="_qpUlA0zvEd-1p8YNpD8H1A" name="output: total"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_qpUlBEzvEd-1p8YNpD8H1A" name="output: email"/>
+      <ownedAttribute xmi:id="_qpUlBUzvEd-1p8YNpD8H1A" name="output: recipient information"/>
+      <ownedAttribute xmi:id="_qpUlBkzvEd-1p8YNpD8H1A" name="output: billing information"/>
+      <ownedAttribute xmi:id="_qpUlB0zvEd-1p8YNpD8H1A" name="output: credit card information"/>
+      <ownedAttribute xmi:id="_qpUlCEzvEd-1p8YNpD8H1A" name="checkbox: same">
+        <qualifier xmi:id="_qpUlCUzvEd-1p8YNpD8H1A" name="output: total"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ztFrkEzvEd-1p8YNpD8H1A" name="dynamic output: product information"/>
+      <ownedAttribute xmi:id="_qpUlCkzvEd-1p8YNpD8H1A" name="btn: keepshopping"/>
+      <ownedAttribute xmi:id="_qpUlC0zvEd-1p8YNpD8H1A" name="10.2.0.201"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_b18xmDt7Ed-mh7NwBQfiOw" name="salamanders.xhtml" clientDependency="_IACR5DuNEd-LHKmdUFJgNA">
+      <generalization xmi:id="_pmr9kzt7Ed-mh7NwBQfiOw" general="_g8ploDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_zsXNEzt7Ed-mh7NwBQfiOw" general="_7jCD0Dt6Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_MHq3YzwWEd-piaG2GHSWwg" general="_i0kJiDt7Ed-mh7NwBQfiOw"/>
+      <ownedAttribute xmi:id="_ZLl0YDuMEd-LHKmdUFJgNA" name="btn: order"/>
+      <ownedAttribute xmi:id="_fP45IDuMEd-LHKmdUFJgNA" name="btn: newts"/>
+      <ownedAttribute xmi:id="_SJWLcD0SEd-g2JveKmkCYw" name="btn: aquatics"/>
+      <ownedAttribute xmi:id="_hxQUcD0SEd-g2JveKmkCYw" name="btn: signout"/>
+      <ownedAttribute xmi:id="_pFTJ0D0SEd-g2JveKmkCYw" name="btn: index"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_g8ploDt7Ed-mh7NwBQfiOw" name="newts.xhtml" clientDependency="_IcdIJDuNEd-LHKmdUFJgNA">
+      <generalization xmi:id="_pUh2kzt7Ed-mh7NwBQfiOw" general="_b18xmDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_yuLGgzt7Ed-mh7NwBQfiOw" general="_i0kJiDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_0DkMIzt7Ed-mh7NwBQfiOw" general="_7jCD0Dt6Ed-mh7NwBQfiOw"/>
+      <ownedAttribute xmi:id="_fpoO0DuMEd-LHKmdUFJgNA" name="btn: order"/>
+      <ownedAttribute xmi:id="_fpoO0TuMEd-LHKmdUFJgNA" name="btn: salamanders"/>
+      <ownedAttribute xmi:id="_VZLkgD0SEd-g2JveKmkCYw" name="btn: aquatics"/>
+      <ownedAttribute xmi:id="_h7OIwD0SEd-g2JveKmkCYw" name="btn: signout"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_i0kJiDt7Ed-mh7NwBQfiOw" name="aquatics.xhtml" clientDependency="_JZv21DuNEd-LHKmdUFJgNA">
+      <generalization xmi:id="_zCtMEzt7Ed-mh7NwBQfiOw" general="_g8ploDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_0fsHczt7Ed-mh7NwBQfiOw" general="_7jCD0Dt6Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_Mcl-gzwWEd-piaG2GHSWwg" general="_b18xmDt7Ed-mh7NwBQfiOw"/>
+      <ownedAttribute xmi:id="_f0VqADuMEd-LHKmdUFJgNA" name="btn: order"/>
+      <ownedAttribute xmi:id="_f0VqATuMEd-LHKmdUFJgNA" name="btn: goto"/>
+      <ownedAttribute xmi:id="_W8kC0D0SEd-g2JveKmkCYw" name="btn: salamanders"/>
+      <ownedAttribute xmi:id="_W8kC0T0SEd-g2JveKmkCYw" name="btn: newts"/>
+      <ownedAttribute xmi:id="_hmZIQD0SEd-g2JveKmkCYw" name="btn: signout"/>
+      <ownedAttribute xmi:id="_pTIKcD0SEd-g2JveKmkCYw" name="btn: index"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_X9dAkDt8Ed-mh7NwBQfiOw" name="Interface1"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZS_3MDt8Ed-mh7NwBQfiOw" name="Package1"/>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_bJ3SMDt8Ed-mh7NwBQfiOw" name="InstanceSpecification1"/>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_cZwMwDt8Ed-mh7NwBQfiOw" name="Enumeration1"/>
+    <packagedElement xmi:type="uml:Signal" xmi:id="_dZImIDt8Ed-mh7NwBQfiOw" name="Signal1"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NXX9SDt9Ed-mh7NwBQfiOw" name="PrimitiveType1"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_vjZhuDt9Ed-mh7NwBQfiOw" name="Interface2"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_y-P38Dt9Ed-mh7NwBQfiOw" name="Table:"/>
+    <packagedElement xmi:type="uml:Signal" xmi:id="_37RypTt9Ed-mh7NwBQfiOw" name=""/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6cQhqDt9Ed-mh7NwBQfiOw" name="Table: usernames">
+      <ownedAttribute xmi:id="_Mv9FADuKEd-LHKmdUFJgNA" name="int: loginid (pk)"/>
+      <ownedAttribute xmi:id="_jlD0gDuKEd-LHKmdUFJgNA" name="int: customerid (fk)"/>
+      <ownedAttribute xmi:id="_PkQ_sDuKEd-LHKmdUFJgNA" name="varchar(20): username">
+        <qualifier xmi:id="_jQrf8DuKEd-LHKmdUFJgNA" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_SF_VkDuKEd-LHKmdUFJgNA" name="varchar(20) password">
+        <qualifier xmi:id="_mfxSIDuKEd-LHKmdUFJgNA" name="clm: password"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_mrOUMDuKEd-LHKmdUFJgNA" name="int: manager"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_4wH6gDt-Ed-mh7NwBQfiOw" name="Table: usernames"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aVIXsDt-Ed-mh7NwBQfiOw" name="UseCase1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jLgiiDt-Ed-mh7NwBQfiOw" name="DataBean"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_q1t1IDt-Ed-mh7NwBQfiOw" name="DataBean">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_rOQ4ADt-Ed-mh7NwBQfiOw" name="DataBean"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_r1sEYDt-Ed-mh7NwBQfiOw" name="SignupBean" clientDependency="_W2skJDuNEd-LHKmdUFJgNA _Il0AlDweEd-piaG2GHSWwg _laleBEzpEd-1p8YNpD8H1A">
+      <ownedAttribute xmi:id="_PkVR4DweEd-piaG2GHSWwg" name="DataBean: db"/>
+      <ownedAttribute xmi:id="_MBAGcD0NEd-g2JveKmkCYw" name="String firstName"/>
+      <ownedAttribute xmi:id="_W8060D0NEd-g2JveKmkCYw" name="String lastName"/>
+      <ownedAttribute xmi:id="_YWYuwD0NEd-g2JveKmkCYw" name="String email"/>
+      <ownedAttribute xmi:id="_Z3sJcD0NEd-g2JveKmkCYw" name="String username"/>
+      <ownedAttribute xmi:id="_aAA_AD0NEd-g2JveKmkCYw" name="String password"/>
+      <ownedAttribute xmi:id="_cVGAAD0NEd-g2JveKmkCYw" name="boolean pWordValid"/>
+      <ownedAttribute xmi:id="_dm60QD0NEd-g2JveKmkCYw" name="boolean uNameValid"/>
+      <ownedAttribute xmi:id="_dwu3kD0NEd-g2JveKmkCYw" name="boolean uNameUnique"/>
+      <ownedAttribute xmi:id="_lebRID0PEd-g2JveKmkCYw" name="mtd: void login_validator(FacesContext fc, UIComponent uic, Object o)">
+        <qualifier xmi:id="_lebRIT0PEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_0zSiUD0PEd-g2JveKmkCYw" name="mtd: void uNameUnique_validator(FacesContext fc, UIComponent uic, Object o)">
+        <qualifier xmi:id="_0zSiUT0PEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+        <qualifier xmi:id="_0zSiUj0PEd-g2JveKmkCYw" name="mtd: void emailAddrTF_validate(FacesContext fc, UIComponent uic, Object o)">
+          <qualifier xmi:id="_0zSiUz0PEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+        </qualifier>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_3FPW0D0PEd-g2JveKmkCYw" name="mtd: void pWordValid_validator(FacesContext fc, UIComponent uic, Object o)">
+        <qualifier xmi:id="_3FPW0T0PEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+        <qualifier xmi:id="_3FPW0j0PEd-g2JveKmkCYw" name="mtd: void emailAddrTF_validate(FacesContext fc, UIComponent uic, Object o)">
+          <qualifier xmi:id="_3FPW0z0PEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+        </qualifier>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_zOL3wD32Ed-dmsBPPmsOdw" name="String error"/>
+      <ownedAttribute xmi:id="_ph1HED0NEd-g2JveKmkCYw" name="mtd: void resetHandler()"/>
+      <ownedAttribute xmi:id="_2FPH0D0OEd-g2JveKmkCYw" name="mtd: String signupHandler()"/>
+      <ownedAttribute xmi:id="_DITVgD0PEd-g2JveKmkCYw" name="mtd: String clearAll()"/>
+      <ownedAttribute xmi:id="_GCRMQD0PEd-g2JveKmkCYw" name="mtd: boolean isSignupGood()"/>
+      <ownedAttribute xmi:id="_KXSEsD0PEd-g2JveKmkCYw" name="mtd: boolean checkManager()"/>
+      <ownedAttribute xmi:id="_Oi6-sD0PEd-g2JveKmkCYw" name="mtd: boolean validateemail()">
+        <qualifier xmi:id="_dZlQ8D0PEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_lPs4oD0PEd-g2JveKmkCYw" name="mtd:boolean validateusername()">
+        <qualifier xmi:id="_lPs4oT0PEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+        <qualifier xmi:id="_lVDSsD0PEd-g2JveKmkCYw" name="mtd: void emailAddrTF_validate(FacesContext fc, UIComponent uic, Object o)">
+          <qualifier xmi:id="_lVDSsT0PEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+        </qualifier>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sAGkoDt-Ed-mh7NwBQfiOw" name="ShopBean" clientDependency="_F7CURjuNEd-LHKmdUFJgNA _WXKIdTuNEd-LHKmdUFJgNA _IsjFQzwfEd-piaG2GHSWwg _8M-e9T0KEd-g2JveKmkCYw _8hWzhD0KEd-g2JveKmkCYw _lHVFNT7PEd-kqqLp4gW_UA _yeBZtEi4Ed-tQaQ0eoz6pA _HipqFUi5Ed-tQaQ0eoz6pA _hlQyREzpEd-1p8YNpD8H1A _3uCANEzpEd-1p8YNpD8H1A">
+      <generalization xmi:id="_dC2XA0zpEd-1p8YNpD8H1A" general="_7-EMkEi4Ed-tQaQ0eoz6pA"/>
+      <generalization xmi:id="_du49o0zpEd-1p8YNpD8H1A" general="_7-EMkEi4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_a8sJIDuNEd-LHKmdUFJgNA" name="btn: confirm"/>
+      <ownedAttribute xmi:id="_r5j3gDwdEd-piaG2GHSWwg" name="DataBean: db"/>
+      <ownedAttribute xmi:id="_GAZEUD0MEd-g2JveKmkCYw" name="SignupBean: sb">
+        <qualifier xmi:id="_GHFiMD0MEd-g2JveKmkCYw" name="DataBean: db"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_GNoPED0MEd-g2JveKmkCYw" name="LoginBean: lb"/>
+      <ownedAttribute xmi:id="_TsXsID0MEd-g2JveKmkCYw" name="int: total"/>
+      <ownedAttribute xmi:id="_XzZL4D0MEd-g2JveKmkCYw" name="String: validusername"/>
+      <ownedAttribute xmi:id="_X7btkD0MEd-g2JveKmkCYw" name="int: size"/>
+      <ownedAttribute xmi:id="_ZrTvwD0MEd-g2JveKmkCYw" name="String: validpassword">
+        <qualifier xmi:id="_oUSLUD0MEd-g2JveKmkCYw" name="String: validpassword"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_U21oQT0ZEd-JvtaIN_ohTg"/>
+      <ownedAttribute xmi:id="_U21oQj0ZEd-JvtaIN_ohTg"/>
+      <ownedAttribute xmi:id="_U21oQz0ZEd-JvtaIN_ohTg"/>
+      <ownedAttribute xmi:id="_U21oRD0ZEd-JvtaIN_ohTg"/>
+      <ownedAttribute xmi:id="_U21oRT0ZEd-JvtaIN_ohTg"/>
+      <ownedAttribute xmi:id="_U21oRj0ZEd-JvtaIN_ohTg"/>
+      <ownedAttribute xmi:id="_U21oRz0ZEd-JvtaIN_ohTg"/>
+      <ownedAttribute xmi:id="_U21oSD0ZEd-JvtaIN_ohTg"/>
+      <ownedAttribute xmi:id="_U21oST0ZEd-JvtaIN_ohTg"/>
+      <ownedAttribute xmi:id="_U21oSj0ZEd-JvtaIN_ohTg" name="boolean uNameUnique"/>
+      <ownedAttribute xmi:id="_8txbkDwdEd-piaG2GHSWwg" name="String total"/>
+      <ownedAttribute xmi:id="_Yi8GkD0ZEd-JvtaIN_ohTg" name="String username"/>
+      <ownedAttribute xmi:id="_Yi8GkT0ZEd-JvtaIN_ohTg" name="String password"/>
+      <ownedAttribute xmi:id="_Yi8Gkj0ZEd-JvtaIN_ohTg" name="String correctUname"/>
+      <ownedAttribute xmi:id="_Yi8Gkz0ZEd-JvtaIN_ohTg" name="String correctPword"/>
+      <ownedAttribute xmi:id="_Yi8GlD0ZEd-JvtaIN_ohTg" name="boolean pWordValid"/>
+      <ownedAttribute xmi:id="_Yi8GlT0ZEd-JvtaIN_ohTg" name="boolean uNameUnique"/>
+      <ownedAttribute xmi:id="_Yi8Glj0ZEd-JvtaIN_ohTg" name="boolean uNameValid"/>
+      <ownedAttribute xmi:id="_a9XhoD0ZEd-JvtaIN_ohTg" name="String firstName"/>
+      <ownedAttribute xmi:id="_a9XhoT0ZEd-JvtaIN_ohTg" name="String lastName"/>
+      <ownedAttribute xmi:id="_a9Xhoj0ZEd-JvtaIN_ohTg" name="String email"/>
+      <ownedAttribute xmi:id="_tV-h0Ei4Ed-tQaQ0eoz6pA" name="mtd: String signupHandler()"/>
+      <ownedAttribute xmi:id="_96r_cUzYEd-1p8YNpD8H1A" name="ManagerBean: mb"/>
+      <ownedAttribute xmi:id="_CrYHQEzZEd-1p8YNpD8H1A" name="InventoryBean: ib"/>
+      <ownedAttribute xmi:id="_HwSyoEzZEd-1p8YNpD8H1A" name="OrderBean: ib"/>
+      <ownedAttribute xmi:id="_LxFHgEzZEd-1p8YNpD8H1A" name="Void getout()"/>
+      <ownedAttribute xmi:id="_NBkfAEzZEd-1p8YNpD8H1A" name="String signupHandler()"/>
+      <ownedAttribute xmi:id="_Wg3D8EzZEd-1p8YNpD8H1A" name="String createcustomer()"/>
+      <ownedAttribute xmi:id="_ecePoEzZEd-1p8YNpD8H1A" name="String findemail()"/>
+      <ownedAttribute xmi:id="_kcdcIEzZEd-1p8YNpD8H1A" name="String checkout()"/>
+      <ownedAttribute xmi:id="_nc9_wEzZEd-1p8YNpD8H1A" name="String orderHandler()"/>
+      <ownedAttribute xmi:id="_p4veoEzZEd-1p8YNpD8H1A" name="boolean isOrderResolved()"/>
+      <ownedAttribute xmi:id="_uOpH4EzZEd-1p8YNpD8H1A" name="String logout()"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sV-G8Dt-Ed-mh7NwBQfiOw" name="ProductBean">
+      <ownedAttribute xmi:id="_WEKRgDwdEd-piaG2GHSWwg" name="String: name"/>
+      <ownedAttribute xmi:id="_X2UysDwdEd-piaG2GHSWwg" name="String: price"/>
+      <ownedAttribute xmi:id="_YDEOMDwdEd-piaG2GHSWwg" name="String: amount"/>
+      <ownedAttribute xmi:id="_YJF9sDwdEd-piaG2GHSWwg" name="String: inventory"/>
+      <ownedAttribute xmi:id="_YXzIEDwdEd-piaG2GHSWwg" name="String: subtotal"/>
+      <ownedAttribute xmi:id="_Ye3ZYDwdEd-piaG2GHSWwg" name="String: picture"/>
+      <ownedAttribute xmi:id="_K_g8IEzjEd-1p8YNpD8H1A" name="int productid"/>
+      <ownedAttribute xmi:id="_NHMaUEzjEd-1p8YNpD8H1A" name="String table"/>
+      <ownedAttribute xmi:id="_QYOGMEzjEd-1p8YNpD8H1A" name="String description"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sjXCsDt-Ed-mh7NwBQfiOw" name="LoginBean" clientDependency="_XcyTxDuNEd-LHKmdUFJgNA _JCNotDweEd-piaG2GHSWwg _Gk3AADwfEd-piaG2GHSWwg _kzm9lEzpEd-1p8YNpD8H1A">
+      <ownedAttribute xmi:id="_PuJVMDweEd-piaG2GHSWwg" name="DataBean: db"/>
+      <ownedAttribute xmi:id="_-MCaYD0PEd-g2JveKmkCYw" name="String username"/>
+      <ownedAttribute xmi:id="__TACcD0PEd-g2JveKmkCYw" name="String password"/>
+      <ownedAttribute xmi:id="_BW9eQD0QEd-g2JveKmkCYw" name="String correctUname"/>
+      <ownedAttribute xmi:id="_BW9eQT0QEd-g2JveKmkCYw" name="String correctPword"/>
+      <ownedAttribute xmi:id="_JkIUAD0QEd-g2JveKmkCYw" name="boolean pWordValid"/>
+      <ownedAttribute xmi:id="_JkIUAT0QEd-g2JveKmkCYw" name="boolean uNameUnique"/>
+      <ownedAttribute xmi:id="_JkIUAj0QEd-g2JveKmkCYw" name="boolean uNameValid"/>
+      <ownedAttribute xmi:id="_TdwrkD0QEd-g2JveKmkCYw" name="mtd: boolean isLoginGood()"/>
+      <ownedAttribute xmi:id="_WCc14D0QEd-g2JveKmkCYw" name="mtd: boolean checkManager()"/>
+      <ownedAttribute xmi:id="_ZBCG4D0QEd-g2JveKmkCYw" name="mtd: String loginHandler()"/>
+      <ownedAttribute xmi:id="_eJq0oD0QEd-g2JveKmkCYw">
+        <qualifier xmi:id="_eJq0oT0QEd-g2JveKmkCYw" name="mtd: void emailAddrTF_validate(FacesContext fc, UIComponent uic, Object o)">
+          <qualifier xmi:id="_eJq0oj0QEd-g2JveKmkCYw"/>
+        </qualifier>
+        <qualifier xmi:id="_eJq0oz0QEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_eJq0pD0QEd-g2JveKmkCYw">
+        <qualifier xmi:id="_eJq0pT0QEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_eJq0pj0QEd-g2JveKmkCYw" name="mtd: void pWordValid_validator(FacesContext fc, UIComponent uic, Object o)">
+        <qualifier xmi:id="_eJq0pz0QEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+        <qualifier xmi:id="_eJq0qD0QEd-g2JveKmkCYw" name="mtd: void emailAddrTF_validate(FacesContext fc, UIComponent uic, Object o)">
+          <qualifier xmi:id="_eJq0qT0QEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+        </qualifier>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hSN58D0QEd-g2JveKmkCYw" name="mtd: void login_validator(FacesContext fc, UIComponent uic, Object o)">
+        <qualifier xmi:id="_hSN58T0QEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hSN58j0QEd-g2JveKmkCYw" name="mtd: boolean validateusername()">
+        <qualifier xmi:id="_hSN58z0QEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+        <qualifier xmi:id="_hSN59D0QEd-g2JveKmkCYw" name="mtd: void emailAddrTF_validate(FacesContext fc, UIComponent uic, Object o)">
+          <qualifier xmi:id="_hSN59T0QEd-g2JveKmkCYw" name="mtd: void signupHandler()"/>
+        </qualifier>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_p-NrwD33Ed-dmsBPPmsOdw" name="mtd: void resetHandler()"/>
+      <ownedAttribute xmi:id="_riW_ED33Ed-dmsBPPmsOdw" name="mtd: String clearAll()"/>
+      <ownedAttribute xmi:id="_Mr-gwD33Ed-dmsBPPmsOdw" name="String error"/>
+      <ownedAttribute xmi:id="_1FqhUD33Ed-dmsBPPmsOdw" name="String error"/>
+      <ownedAttribute xmi:id="_cuHlgEzbEd-1p8YNpD8H1A" name="mtd: boolean isManagerGood()"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sscGMDt-Ed-mh7NwBQfiOw" name="DataBean"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_45yz4Dt-Ed-mh7NwBQfiOw" name="Table: customerinfo">
+      <ownedAttribute xmi:id="_6auksDuKEd-LHKmdUFJgNA" name="int: customerid (fk)">
+        <qualifier xmi:id="_8WXK8DuKEd-LHKmdUFJgNA" name="int: customerid (fk)"/>
+        <qualifier xmi:id="__xDwMDuKEd-LHKmdUFJgNA" name="varchar(20): username">
+          <qualifier xmi:id="__xDwMTuKEd-LHKmdUFJgNA" name="clm: username"/>
+        </qualifier>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_8kyogDuKEd-LHKmdUFJgNA" name="int: customerid (fk)"/>
+      <ownedAttribute xmi:id="_8uwc0DuKEd-LHKmdUFJgNA" name="int: customerid (fk)"/>
+      <ownedAttribute xmi:id="__-mc8DuKEd-LHKmdUFJgNA" name="varchar(20): firstname">
+        <qualifier xmi:id="__-mc8TuKEd-LHKmdUFJgNA" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_CB-C4DuLEd-LHKmdUFJgNA" name="varchar(20): lastname">
+        <qualifier xmi:id="_CB-C4TuLEd-LHKmdUFJgNA" name="clm: username"/>
+        <qualifier xmi:id="_ECqIQDuLEd-LHKmdUFJgNA" name="varchar(20): lastname">
+          <qualifier xmi:id="_ECqIQTuLEd-LHKmdUFJgNA" name="clm: username"/>
+        </qualifier>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_EN9ZUDuLEd-LHKmdUFJgNA" name="varchar(40): email">
+        <qualifier xmi:id="_EN9ZUTuLEd-LHKmdUFJgNA" name="clm: username"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_5ubNdDuMEd-LHKmdUFJgNA" name="Dependency1" supplier="_sjXCsDt-Ed-mh7NwBQfiOw" client="_7K2p2Dt5Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_F7CURjuNEd-LHKmdUFJgNA" name="Dependency2" supplier="_sV-G8Dt-Ed-mh7NwBQfiOw" client="_sAGkoDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_HNKDdDuNEd-LHKmdUFJgNA" name="Dependency3" supplier="_sAGkoDt-Ed-mh7NwBQfiOw" client="_eHkEUDt6Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_IACR5DuNEd-LHKmdUFJgNA" name="Dependency4" supplier="_sAGkoDt-Ed-mh7NwBQfiOw" client="_b18xmDt7Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_IcdIJDuNEd-LHKmdUFJgNA" name="Dependency5" supplier="_sAGkoDt-Ed-mh7NwBQfiOw" client="_g8ploDt7Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_JZv21DuNEd-LHKmdUFJgNA" name="Dependency6" supplier="_sAGkoDt-Ed-mh7NwBQfiOw" client="_i0kJiDt7Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_LUV7RDuNEd-LHKmdUFJgNA" name="Dependency7" supplier="_sAGkoDt-Ed-mh7NwBQfiOw" client="_ZeUBQDt6Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_OQimpTuNEd-LHKmdUFJgNA" name="Dependency8" supplier="_r1sEYDt-Ed-mh7NwBQfiOw" client="_7K2p2Dt5Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_WXKIdTuNEd-LHKmdUFJgNA" name="Dependency9" supplier="_jLgiiDt-Ed-mh7NwBQfiOw" client="_sAGkoDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_W2skJDuNEd-LHKmdUFJgNA" name="Dependency10" supplier="_jLgiiDt-Ed-mh7NwBQfiOw" client="_r1sEYDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_XcyTxDuNEd-LHKmdUFJgNA" name="Dependency11" supplier="_jLgiiDt-Ed-mh7NwBQfiOw" client="_sjXCsDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_ZGte9DuNEd-LHKmdUFJgNA" name="Dependency12" supplier="_sAGkoDt-Ed-mh7NwBQfiOw" client="_7jCD0Dt6Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bh4g4DuNEd-LHKmdUFJgNA" name="ShopBean">
+      <ownedAttribute xmi:id="_bh4g4TuNEd-LHKmdUFJgNA" name="btn: confirm"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BOvFUDweEd-piaG2GHSWwg" name="DataBean" clientDependency="_sImHJDwfEd-piaG2GHSWwg _smRhpDwfEd-piaG2GHSWwg _P4WdZD0LEd-g2JveKmkCYw _QON_tD0LEd-g2JveKmkCYw">
+      <ownedAttribute xmi:id="_253t0DweEd-piaG2GHSWwg" name="Connection connect"/>
+      <ownedAttribute xmi:id="_610mADweEd-piaG2GHSWwg" name="String driver"/>
+      <ownedAttribute xmi:id="_87IFoDweEd-piaG2GHSWwg" name="String url"/>
+      <ownedAttribute xmi:id="_9bExADweEd-piaG2GHSWwg" name="String dbName"/>
+      <ownedAttribute xmi:id="_9mmrkDweEd-piaG2GHSWwg" name="String dbUsername"/>
+      <ownedAttribute xmi:id="_9wNTgDweEd-piaG2GHSWwg" name="String dbPassword"/>
+      <ownedAttribute xmi:id="_CdoE4DwfEd-piaG2GHSWwg" name="String driver"/>
+      <ownedAttribute xmi:id="_n4XpcD7PEd-kqqLp4gW_UA" name="String: name"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_Df8dgDwfEd-piaG2GHSWwg" name="DataBean">
+        <ownedAttribute xmi:id="_Df8dgTwfEd-piaG2GHSWwg" name="Connection connect"/>
+        <ownedAttribute xmi:id="_Df8dgjwfEd-piaG2GHSWwg" name="String driver"/>
+        <ownedAttribute xmi:id="_Df8dgzwfEd-piaG2GHSWwg" name="String url"/>
+        <ownedAttribute xmi:id="_Df8dhDwfEd-piaG2GHSWwg" name="String dbName"/>
+        <ownedAttribute xmi:id="_Df8dhTwfEd-piaG2GHSWwg" name="String dbUsername"/>
+        <ownedAttribute xmi:id="_Df8dhjwfEd-piaG2GHSWwg" name="String dbPassword"/>
+        <ownedAttribute xmi:id="_Df8dhzwfEd-piaG2GHSWwg" name="String driver"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GEKjMDweEd-piaG2GHSWwg" name="DataBean"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Il0AlDweEd-piaG2GHSWwg" name="Dependency13" supplier="_BOvFUDweEd-piaG2GHSWwg" client="_r1sEYDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_JCNotDweEd-piaG2GHSWwg" name="Dependency14" supplier="_GEKjMDweEd-piaG2GHSWwg" client="_sjXCsDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_DrniADwfEd-piaG2GHSWwg" name="DataBean" clientDependency="_s6YJYzwfEd-piaG2GHSWwg _tZ5-BDwfEd-piaG2GHSWwg _PFKs9D0LEd-g2JveKmkCYw _Pbx2JD0LEd-g2JveKmkCYw">
+      <ownedAttribute xmi:id="_DrniATwfEd-piaG2GHSWwg" name="Connection connect"/>
+      <ownedAttribute xmi:id="_DrniAjwfEd-piaG2GHSWwg" name="String driver"/>
+      <ownedAttribute xmi:id="_DrniAzwfEd-piaG2GHSWwg" name="String url"/>
+      <ownedAttribute xmi:id="_DrniBDwfEd-piaG2GHSWwg" name="String dbName"/>
+      <ownedAttribute xmi:id="_DrniBTwfEd-piaG2GHSWwg" name="String dbUsername"/>
+      <ownedAttribute xmi:id="_DrniBjwfEd-piaG2GHSWwg" name="String dbPassword"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Gk3AADwfEd-piaG2GHSWwg" name="Dependency15" supplier="_DrniADwfEd-piaG2GHSWwg" client="_sjXCsDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HeeIkDwfEd-piaG2GHSWwg" name="DataBean" clientDependency="_0rF3MDwgEd-piaG2GHSWwg _0_Z6UDwgEd-piaG2GHSWwg">
+      <ownedAttribute xmi:id="_HeeIkTwfEd-piaG2GHSWwg" name="Connection connect"/>
+      <ownedAttribute xmi:id="_HeeIkjwfEd-piaG2GHSWwg" name="String driver"/>
+      <ownedAttribute xmi:id="_HeeIkzwfEd-piaG2GHSWwg" name="String url"/>
+      <ownedAttribute xmi:id="_HeeIlDwfEd-piaG2GHSWwg" name="String dbName"/>
+      <ownedAttribute xmi:id="_HeeIlTwfEd-piaG2GHSWwg" name="String dbUsername"/>
+      <ownedAttribute xmi:id="_HeeIljwfEd-piaG2GHSWwg" name="String dbPassword"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_IsjFQzwfEd-piaG2GHSWwg" name="Dependency16" supplier="_HeeIkDwfEd-piaG2GHSWwg" client="_sAGkoDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_sImHJDwfEd-piaG2GHSWwg" name="Dependency17" supplier="_6cQhqDt9Ed-mh7NwBQfiOw" client="_BOvFUDweEd-piaG2GHSWwg"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_smRhpDwfEd-piaG2GHSWwg" name="Dependency18" supplier="_45yz4Dt-Ed-mh7NwBQfiOw" client="_BOvFUDweEd-piaG2GHSWwg"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_s6YJYzwfEd-piaG2GHSWwg" name="Dependency19" supplier="_6cQhqDt9Ed-mh7NwBQfiOw" client="_DrniADwfEd-piaG2GHSWwg"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_tZ5-BDwfEd-piaG2GHSWwg" name="Dependency20" supplier="_45yz4Dt-Ed-mh7NwBQfiOw" client="_DrniADwfEd-piaG2GHSWwg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_0Cu2sDwgEd-piaG2GHSWwg" name="Table: customerinfo">
+      <ownedAttribute xmi:id="_0Cu2sTwgEd-piaG2GHSWwg" name="int customerid (pk)">
+        <qualifier xmi:id="_0Cu2sjwgEd-piaG2GHSWwg" name="int: customerid (fk)"/>
+        <qualifier xmi:id="_0Cu2szwgEd-piaG2GHSWwg" name="varchar(20): username">
+          <qualifier xmi:id="_0Cu2tDwgEd-piaG2GHSWwg" name="clm: username"/>
+        </qualifier>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_0Cu2tTwgEd-piaG2GHSWwg" name="int: customerid (fk)"/>
+      <ownedAttribute xmi:id="_0Cu2tjwgEd-piaG2GHSWwg" name="int: customerid (fk)"/>
+      <ownedAttribute xmi:id="_0Cu2tzwgEd-piaG2GHSWwg" name="varchar(20) firstname">
+        <qualifier xmi:id="_0Cu2uDwgEd-piaG2GHSWwg" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_0Cu2uTwgEd-piaG2GHSWwg" name="varchar(20) lastname">
+        <qualifier xmi:id="_0Cu2ujwgEd-piaG2GHSWwg" name="clm: username"/>
+        <qualifier xmi:id="_0Cu2uzwgEd-piaG2GHSWwg" name="varchar(20): lastname">
+          <qualifier xmi:id="_0Cu2vDwgEd-piaG2GHSWwg" name="clm: username"/>
+        </qualifier>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_0Cu2vTwgEd-piaG2GHSWwg" name="varchar(40) email">
+        <qualifier xmi:id="_0Cu2vjwgEd-piaG2GHSWwg" name="clm: username"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_0CvdwDwgEd-piaG2GHSWwg" name="Table: usernames" clientDependency="_jD4FVEzpEd-1p8YNpD8H1A">
+      <generalization xmi:id="_TddKE0zpEd-1p8YNpD8H1A" general="_0Cu2sDwgEd-piaG2GHSWwg"/>
+      <ownedAttribute xmi:id="_0CvdwTwgEd-piaG2GHSWwg" name="int: loginid (pk)"/>
+      <ownedAttribute xmi:id="_0CvdwjwgEd-piaG2GHSWwg" name="int: customerid (fk)"/>
+      <ownedAttribute xmi:id="_0CvdwzwgEd-piaG2GHSWwg" name="varchar(20) username">
+        <qualifier xmi:id="_0CvdxDwgEd-piaG2GHSWwg" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_0CvdxTwgEd-piaG2GHSWwg" name="varchar(20) password">
+        <qualifier xmi:id="_0CvdxjwgEd-piaG2GHSWwg" name="clm: password"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_0CvdxzwgEd-piaG2GHSWwg" name="int (boolean) manager"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_0CvdyDwgEd-piaG2GHSWwg" name="Table: usernames"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_0rF3MDwgEd-piaG2GHSWwg" name="Dependency21" supplier="_0Cu2sDwgEd-piaG2GHSWwg" client="_HeeIkDwfEd-piaG2GHSWwg"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_0_Z6UDwgEd-piaG2GHSWwg" name="Dependency22" supplier="_0CvdwDwgEd-piaG2GHSWwg" client="_HeeIkDwfEd-piaG2GHSWwg"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_8M-e9T0KEd-g2JveKmkCYw" name="Dependency23" supplier="_sjXCsDt-Ed-mh7NwBQfiOw" client="_sAGkoDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_8hWzhD0KEd-g2JveKmkCYw" name="Dependency24" supplier="_r1sEYDt-Ed-mh7NwBQfiOw" client="_sAGkoDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_PFKs9D0LEd-g2JveKmkCYw" name="Dependency25" supplier="_0Cu2sDwgEd-piaG2GHSWwg" client="_DrniADwfEd-piaG2GHSWwg"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Pbx2JD0LEd-g2JveKmkCYw" name="Dependency26" supplier="_0CvdwDwgEd-piaG2GHSWwg" client="_DrniADwfEd-piaG2GHSWwg"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_P4WdZD0LEd-g2JveKmkCYw" name="Dependency27" supplier="_0Cu2sDwgEd-piaG2GHSWwg" client="_BOvFUDweEd-piaG2GHSWwg"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_QON_tD0LEd-g2JveKmkCYw" name="Dependency28" supplier="_0CvdwDwgEd-piaG2GHSWwg" client="_BOvFUDweEd-piaG2GHSWwg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VNpFIT7OEd-kqqLp4gW_UA" name="ManagerBean" clientDependency="_ldWYhT7PEd-kqqLp4gW_UA _lzEw5T7PEd-kqqLp4gW_UA _o9s51T7PEd-kqqLp4gW_UA">
+      <ownedAttribute xmi:id="_VNpFIj7OEd-kqqLp4gW_UA" name="String: name"/>
+      <ownedAttribute xmi:id="_VNpFIz7OEd-kqqLp4gW_UA" name="String: price"/>
+      <ownedAttribute xmi:id="_VNpFJD7OEd-kqqLp4gW_UA" name="String: amount"/>
+      <ownedAttribute xmi:id="_VNpFJT7OEd-kqqLp4gW_UA" name="String: inventory"/>
+      <ownedAttribute xmi:id="_VNpFJj7OEd-kqqLp4gW_UA" name="String: subtotal"/>
+      <ownedAttribute xmi:id="_VNpFJz7OEd-kqqLp4gW_UA" name="String: picture"/>
+      <ownedAttribute xmi:id="_0U-JgD7OEd-kqqLp4gW_UA" name="DataBean: db"/>
+      <ownedAttribute xmi:id="_jk5ekD7OEd-kqqLp4gW_UA" name="ArrayList&lt;CustomertBean> customerinfo"/>
+      <ownedAttribute xmi:id="_njroUD7OEd-kqqLp4gW_UA" name="ArrayList&lt;UsertBean> usernames"/>
+      <ownedAttribute xmi:id="_AMbNwD7REd-kqqLp4gW_UA" name="">
+        <qualifier xmi:id="_AQ43AD7REd-kqqLp4gW_UA" name="String: firstname"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_CPfRsD7REd-kqqLp4gW_UA" name="int: loginid">
+        <qualifier xmi:id="_CPfRsT7REd-kqqLp4gW_UA" name="int: customerid"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_CPfRsj7REd-kqqLp4gW_UA" name="int: customerid"/>
+      <ownedAttribute xmi:id="_e9UkkD7QEd-kqqLp4gW_UA" name="String: firstname"/>
+      <ownedAttribute xmi:id="_e9UkkT7QEd-kqqLp4gW_UA" name="String: lastname"/>
+      <ownedAttribute xmi:id="_e9Ukkj7QEd-kqqLp4gW_UA" name="String: email">
+        <qualifier xmi:id="_MVTHgEzcEd-1p8YNpD8H1A" name="int booltoint(boolean n)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9Ukkz7QEd-kqqLp4gW_UA" name="String: username"/>
+      <ownedAttribute xmi:id="_e9UklD7QEd-kqqLp4gW_UA" name="String: password"/>
+      <ownedAttribute xmi:id="_CPfRsz7REd-kqqLp4gW_UA" name="boolean: manager"/>
+      <ownedAttribute xmi:id="_KSfJsD7PEd-kqqLp4gW_UA" name="mtd: void buildcustomers()"/>
+      <ownedAttribute xmi:id="_KkCzwD7PEd-kqqLp4gW_UA" name="mtd: void buildusernames()"/>
+      <ownedAttribute xmi:id="_oJK4AD7vEd-kqqLp4gW_UA" name="mtd: int getusersize()">
+        <qualifier xmi:id="_L6OVEEzcEd-1p8YNpD8H1A" name="int booltoint(boolean n)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_oJK4AT7vEd-kqqLp4gW_UA" name="mtd: int getcustomersize()"/>
+      <ownedAttribute xmi:id="_p7AdkEzbEd-1p8YNpD8H1A" name="ArrayList&lt;CustomertBean> newcustomerinfo"/>
+      <ownedAttribute xmi:id="_sYjeEEzbEd-1p8YNpD8H1A" name="ArrayList&lt;UsertBean> newusernames"/>
+      <ownedAttribute xmi:id="_uEai8EzbEd-1p8YNpD8H1A" name="ArrayList&lt;Boolean> deletecustomer"/>
+      <ownedAttribute xmi:id="_xzWS0EzbEd-1p8YNpD8H1A" name="ArrayList&lt;Boolean> deleteusername"/>
+      <ownedAttribute xmi:id="_7xbskEzbEd-1p8YNpD8H1A" name="boolean inttobool(int n)"/>
+      <ownedAttribute xmi:id="_BqbgQEzcEd-1p8YNpD8H1A" name="int booltoint(boolean n)"/>
+      <ownedAttribute xmi:id="_Mp1NEEzcEd-1p8YNpD8H1A" name="String fetchfirstname(int n)"/>
+      <ownedAttribute xmi:id="_R5KYsEzcEd-1p8YNpD8H1A" name="String fetchlastname(int n)"/>
+      <ownedAttribute xmi:id="_e5jF0EzcEd-1p8YNpD8H1A" name="String fetchemail(int n)">
+        <qualifier xmi:id="_kktR0EzcEd-1p8YNpD8H1A" name="String fetchusername(int n)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_h1c2QEzcEd-1p8YNpD8H1A" name="String fetchusername(int n)"/>
+      <ownedAttribute xmi:id="_lBt98EzcEd-1p8YNpD8H1A" name="String fetchpassword(int n)"/>
+      <ownedAttribute xmi:id="_oMM88EzcEd-1p8YNpD8H1A" name="boolean fetchmanager(int n)"/>
+      <ownedAttribute xmi:id="_u4X6AEzcEd-1p8YNpD8H1A" name="boolean findloginidof(int n)"/>
+      <ownedAttribute xmi:id="_EG_-cEzeEd-1p8YNpD8H1A" name="void updatecustomers()"/>
+      <ownedAttribute xmi:id="_LZswAEzeEd-1p8YNpD8H1A" name="void addincustomer(String f, String l, String e, String u, String p, boolean m)"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_V3TGID7OEd-kqqLp4gW_UA" name="ProductBean">
+        <ownedAttribute xmi:id="_V3TGIT7OEd-kqqLp4gW_UA" name="String: name"/>
+        <ownedAttribute xmi:id="_V3TGIj7OEd-kqqLp4gW_UA" name="String: price"/>
+        <ownedAttribute xmi:id="_V3TGIz7OEd-kqqLp4gW_UA" name="String: amount"/>
+        <ownedAttribute xmi:id="_V3TGJD7OEd-kqqLp4gW_UA" name="String: inventory"/>
+        <ownedAttribute xmi:id="_V3TGJT7OEd-kqqLp4gW_UA" name="String: subtotal"/>
+        <ownedAttribute xmi:id="_V3TGJj7OEd-kqqLp4gW_UA" name="String: picture"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WKVW4D7OEd-kqqLp4gW_UA" name="CustomerBean">
+      <ownedAttribute xmi:id="_WKVW4T7OEd-kqqLp4gW_UA" name="int: customerid"/>
+      <ownedAttribute xmi:id="_WKVW4j7OEd-kqqLp4gW_UA" name="String: firstname"/>
+      <ownedAttribute xmi:id="_WKVW4z7OEd-kqqLp4gW_UA" name="String: lastname"/>
+      <ownedAttribute xmi:id="_WKVW5D7OEd-kqqLp4gW_UA" name="String: email"/>
+      <ownedAttribute xmi:id="_WKVW5T7OEd-kqqLp4gW_UA" name="String: subtotal"/>
+      <ownedAttribute xmi:id="_WKVW5j7OEd-kqqLp4gW_UA" name="String: picture"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_W1yHoD7OEd-kqqLp4gW_UA" name="UserBean">
+      <ownedAttribute xmi:id="_W1yHoj7OEd-kqqLp4gW_UA" name="String: price"/>
+      <ownedAttribute xmi:id="_W1yHoz7OEd-kqqLp4gW_UA" name="String: amount"/>
+      <ownedAttribute xmi:id="_W1yHpD7OEd-kqqLp4gW_UA" name="String: inventory"/>
+      <ownedAttribute xmi:id="_W1yHpT7OEd-kqqLp4gW_UA" name="String: subtotal"/>
+      <ownedAttribute xmi:id="_W1yHpj7OEd-kqqLp4gW_UA" name="String: picture"/>
+      <ownedAttribute xmi:id="_PRYsoD7PEd-kqqLp4gW_UA" name="int: loginid">
+        <qualifier xmi:id="_PWl8wD7PEd-kqqLp4gW_UA" name="int: customerid"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PgjxED7PEd-kqqLp4gW_UA" name="int: customerid"/>
+      <ownedAttribute xmi:id="_W1yHoT7OEd-kqqLp4gW_UA" name="String: username"/>
+      <ownedAttribute xmi:id="_Tp0sgD7PEd-kqqLp4gW_UA" name="String: password"/>
+      <ownedAttribute xmi:id="_VN8xsD7PEd-kqqLp4gW_UA" name="int: manager"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_lHVFNT7PEd-kqqLp4gW_UA" name="Dependency29" supplier="_VNpFIT7OEd-kqqLp4gW_UA" client="_sAGkoDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_ldWYhT7PEd-kqqLp4gW_UA" name="Dependency30" supplier="_WKVW4D7OEd-kqqLp4gW_UA" client="_VNpFIT7OEd-kqqLp4gW_UA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_lzEw5T7PEd-kqqLp4gW_UA" name="Dependency31" supplier="_W1yHoD7OEd-kqqLp4gW_UA" client="_VNpFIT7OEd-kqqLp4gW_UA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_oLkSQD7PEd-kqqLp4gW_UA" name="DataBean" clientDependency="_l5THJD7vEd-kqqLp4gW_UA _mXNLJD7vEd-kqqLp4gW_UA _-081A0zoEd-1p8YNpD8H1A __KEwdUzoEd-1p8YNpD8H1A __hRvhEzoEd-1p8YNpD8H1A __1z1FUzoEd-1p8YNpD8H1A _AKC_tUzpEd-1p8YNpD8H1A _Af6iBUzpEd-1p8YNpD8H1A">
+      <ownedAttribute xmi:id="_oLkSQT7PEd-kqqLp4gW_UA" name="Connection connect"/>
+      <ownedAttribute xmi:id="_oLkSQj7PEd-kqqLp4gW_UA" name="String driver"/>
+      <ownedAttribute xmi:id="_oLkSQz7PEd-kqqLp4gW_UA" name="String url"/>
+      <ownedAttribute xmi:id="_oLkSRD7PEd-kqqLp4gW_UA" name="String dbName"/>
+      <ownedAttribute xmi:id="_oLkSRT7PEd-kqqLp4gW_UA" name="String dbUsername"/>
+      <ownedAttribute xmi:id="_oLkSRj7PEd-kqqLp4gW_UA" name="String dbPassword"/>
+      <ownedAttribute xmi:id="_oLkSRz7PEd-kqqLp4gW_UA" name="String driver"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_oLkSSD7PEd-kqqLp4gW_UA" name="DataBean">
+        <ownedAttribute xmi:id="_oLkSST7PEd-kqqLp4gW_UA" name="Connection connect"/>
+        <ownedAttribute xmi:id="_oLkSSj7PEd-kqqLp4gW_UA" name="String driver"/>
+        <ownedAttribute xmi:id="_oLkSSz7PEd-kqqLp4gW_UA" name="String url"/>
+        <ownedAttribute xmi:id="_oLkSTD7PEd-kqqLp4gW_UA" name="String dbName"/>
+        <ownedAttribute xmi:id="_oLkSTT7PEd-kqqLp4gW_UA" name="String dbUsername"/>
+        <ownedAttribute xmi:id="_oLkSTj7PEd-kqqLp4gW_UA" name="String dbPassword"/>
+        <ownedAttribute xmi:id="_oLkSTz7PEd-kqqLp4gW_UA" name="String driver"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_o9s51T7PEd-kqqLp4gW_UA" name="Dependency32" supplier="_oLkSQD7PEd-kqqLp4gW_UA" client="_VNpFIT7OEd-kqqLp4gW_UA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_l5THJD7vEd-kqqLp4gW_UA" name="Dependency33" supplier="_0CvdwDwgEd-piaG2GHSWwg" client="_oLkSQD7PEd-kqqLp4gW_UA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_mXNLJD7vEd-kqqLp4gW_UA" name="Dependency34" supplier="_0Cu2sDwgEd-piaG2GHSWwg" client="_oLkSQD7PEd-kqqLp4gW_UA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_NhxYMUcqEd-g_7_spUaMTw" name="ShopBean">
+      <ownedAttribute xmi:id="_NhxYMkcqEd-g_7_spUaMTw" name="btn: confirm"/>
+      <ownedAttribute xmi:id="_NhxYM0cqEd-g_7_spUaMTw" name="DataBean: db"/>
+      <ownedAttribute xmi:id="_NhxYNEcqEd-g_7_spUaMTw" name="SignupBean: sb">
+        <qualifier xmi:id="_NhxYNUcqEd-g_7_spUaMTw" name="DataBean: db"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_NhxYNkcqEd-g_7_spUaMTw" name="LoginBean: lb"/>
+      <ownedAttribute xmi:id="_NhxYN0cqEd-g_7_spUaMTw" name="int: total"/>
+      <ownedAttribute xmi:id="_NhxYOEcqEd-g_7_spUaMTw" name="String: validusername"/>
+      <ownedAttribute xmi:id="_NhxYOUcqEd-g_7_spUaMTw" name="int: size"/>
+      <ownedAttribute xmi:id="_NhxYOkcqEd-g_7_spUaMTw" name="String: validpassword">
+        <qualifier xmi:id="_NhxYO0cqEd-g_7_spUaMTw" name="String: validpassword"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_NhxYPEcqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_NhxYPUcqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_NhxYPkcqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_NhxYP0cqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_NhxYQEcqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_NhxYQUcqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_NhxYQkcqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_NhxYQ0cqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_NhxYREcqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_NhxYRUcqEd-g_7_spUaMTw" name="boolean uNameUnique"/>
+      <ownedAttribute xmi:id="_NhxYRkcqEd-g_7_spUaMTw" name="ArrayList&lt;ProductBean> info"/>
+      <ownedAttribute xmi:id="_NhxYR0cqEd-g_7_spUaMTw" name="String total"/>
+      <ownedAttribute xmi:id="_NhxYSEcqEd-g_7_spUaMTw" name="int: size"/>
+      <ownedAttribute xmi:id="_NhxYSUcqEd-g_7_spUaMTw" name="mtd: int getcount()"/>
+      <ownedAttribute xmi:id="_NhxYSkcqEd-g_7_spUaMTw" name="mtd: void buildinfo()"/>
+      <ownedAttribute xmi:id="_NhxYS0cqEd-g_7_spUaMTw" name="mtd: void resetamounts()"/>
+      <ownedAttribute xmi:id="_NhxYTEcqEd-g_7_spUaMTw" name="mtd: double mod()"/>
+      <ownedAttribute xmi:id="_NhxYTUcqEd-g_7_spUaMTw" name="mtd: String clearall()"/>
+      <ownedAttribute xmi:id="_NhxYTkcqEd-g_7_spUaMTw" name="mtd: void getout()"/>
+      <ownedAttribute xmi:id="_NhxYT0cqEd-g_7_spUaMTw" name="mtd: String total()"/>
+      <ownedAttribute xmi:id="_NhxYUEcqEd-g_7_spUaMTw" name="mtd: void cleanse()"/>
+      <ownedAttribute xmi:id="_NhxYUUcqEd-g_7_spUaMTw" name="mtd: void reducecoverage()"/>
+      <ownedAttribute xmi:id="_NhxYUkcqEd-g_7_spUaMTw" name="mtd: boolean checkit(String target)"/>
+      <ownedAttribute xmi:id="_NhxYU0cqEd-g_7_spUaMTw" name="String username"/>
+      <ownedAttribute xmi:id="_NhxYVEcqEd-g_7_spUaMTw" name="String password"/>
+      <ownedAttribute xmi:id="_NhxYVUcqEd-g_7_spUaMTw" name="String correctUname"/>
+      <ownedAttribute xmi:id="_NhxYVkcqEd-g_7_spUaMTw" name="String correctPword"/>
+      <ownedAttribute xmi:id="_NhxYV0cqEd-g_7_spUaMTw" name="boolean pWordValid"/>
+      <ownedAttribute xmi:id="_NhxYWEcqEd-g_7_spUaMTw" name="boolean uNameUnique"/>
+      <ownedAttribute xmi:id="_NhxYWUcqEd-g_7_spUaMTw" name="boolean uNameValid"/>
+      <ownedAttribute xmi:id="_NhxYWkcqEd-g_7_spUaMTw" name="String firstName"/>
+      <ownedAttribute xmi:id="_NhxYW0cqEd-g_7_spUaMTw" name="String lastName"/>
+      <ownedAttribute xmi:id="_NhxYXEcqEd-g_7_spUaMTw" name="String email"/>
+      <ownedAttribute xmi:id="_NhxYXUcqEd-g_7_spUaMTw" name="mtd: String signupHandler()"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_TToCEEcqEd-g_7_spUaMTw" name="ShopBean">
+      <ownedAttribute xmi:id="_TToCEUcqEd-g_7_spUaMTw" name="btn: confirm"/>
+      <ownedAttribute xmi:id="_TToCEkcqEd-g_7_spUaMTw" name="DataBean: db"/>
+      <ownedAttribute xmi:id="_TToCE0cqEd-g_7_spUaMTw" name="SignupBean: sb">
+        <qualifier xmi:id="_TToCFEcqEd-g_7_spUaMTw" name="DataBean: db"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TToCFUcqEd-g_7_spUaMTw" name="LoginBean: lb"/>
+      <ownedAttribute xmi:id="_TToCFkcqEd-g_7_spUaMTw" name="int: total"/>
+      <ownedAttribute xmi:id="_TToCF0cqEd-g_7_spUaMTw" name="String: validusername"/>
+      <ownedAttribute xmi:id="_TToCGEcqEd-g_7_spUaMTw" name="int: size"/>
+      <ownedAttribute xmi:id="_TToCGUcqEd-g_7_spUaMTw" name="String: validpassword">
+        <qualifier xmi:id="_TToCGkcqEd-g_7_spUaMTw" name="String: validpassword"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TToCG0cqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_TToCHEcqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_TToCHUcqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_TToCHkcqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_TToCH0cqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_TToCIEcqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_TToCIUcqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_TToCIkcqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_TToCI0cqEd-g_7_spUaMTw"/>
+      <ownedAttribute xmi:id="_TToCJEcqEd-g_7_spUaMTw" name="boolean uNameUnique"/>
+      <ownedAttribute xmi:id="_TToCJUcqEd-g_7_spUaMTw" name="ArrayList&lt;ProductBean> info"/>
+      <ownedAttribute xmi:id="_TToCJkcqEd-g_7_spUaMTw" name="String total"/>
+      <ownedAttribute xmi:id="_TToCJ0cqEd-g_7_spUaMTw" name="int: size"/>
+      <ownedAttribute xmi:id="_TToCKEcqEd-g_7_spUaMTw" name="mtd: int getcount()"/>
+      <ownedAttribute xmi:id="_TToCKUcqEd-g_7_spUaMTw" name="mtd: void buildinfo()"/>
+      <ownedAttribute xmi:id="_TToCKkcqEd-g_7_spUaMTw" name="mtd: void resetamounts()"/>
+      <ownedAttribute xmi:id="_TToCK0cqEd-g_7_spUaMTw" name="mtd: double mod()"/>
+      <ownedAttribute xmi:id="_TToCLEcqEd-g_7_spUaMTw" name="mtd: String clearall()"/>
+      <ownedAttribute xmi:id="_TToCLUcqEd-g_7_spUaMTw" name="mtd: void getout()"/>
+      <ownedAttribute xmi:id="_TToCLkcqEd-g_7_spUaMTw" name="mtd: String total()"/>
+      <ownedAttribute xmi:id="_TToCL0cqEd-g_7_spUaMTw" name="mtd: void cleanse()"/>
+      <ownedAttribute xmi:id="_TToCMEcqEd-g_7_spUaMTw" name="mtd: void reducecoverage()"/>
+      <ownedAttribute xmi:id="_TToCMUcqEd-g_7_spUaMTw" name="mtd: boolean checkit(String target)"/>
+      <ownedAttribute xmi:id="_TToCMkcqEd-g_7_spUaMTw" name="String username"/>
+      <ownedAttribute xmi:id="_TToCM0cqEd-g_7_spUaMTw" name="String password"/>
+      <ownedAttribute xmi:id="_TToCNEcqEd-g_7_spUaMTw" name="String correctUname"/>
+      <ownedAttribute xmi:id="_TToCNUcqEd-g_7_spUaMTw" name="String correctPword"/>
+      <ownedAttribute xmi:id="_TToCNkcqEd-g_7_spUaMTw" name="boolean pWordValid"/>
+      <ownedAttribute xmi:id="_TToCN0cqEd-g_7_spUaMTw" name="boolean uNameUnique"/>
+      <ownedAttribute xmi:id="_TToCOEcqEd-g_7_spUaMTw" name="boolean uNameValid"/>
+      <ownedAttribute xmi:id="_TToCOUcqEd-g_7_spUaMTw" name="String firstName"/>
+      <ownedAttribute xmi:id="_TToCOkcqEd-g_7_spUaMTw" name="String lastName"/>
+      <ownedAttribute xmi:id="_TToCO0cqEd-g_7_spUaMTw" name="String email"/>
+      <ownedAttribute xmi:id="_TToCPEcqEd-g_7_spUaMTw" name="mtd: String signupHandler()"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_MIAhEUi4Ed-tQaQ0eoz6pA" name="ManagerBean">
+      <ownedAttribute xmi:id="_MIAhEki4Ed-tQaQ0eoz6pA" name="String: name"/>
+      <ownedAttribute xmi:id="_MIAhE0i4Ed-tQaQ0eoz6pA" name="String: price"/>
+      <ownedAttribute xmi:id="_MIAhFEi4Ed-tQaQ0eoz6pA" name="String: amount"/>
+      <ownedAttribute xmi:id="_MIAhFUi4Ed-tQaQ0eoz6pA" name="String: inventory"/>
+      <ownedAttribute xmi:id="_MIAhFki4Ed-tQaQ0eoz6pA" name="String: subtotal"/>
+      <ownedAttribute xmi:id="_MIAhF0i4Ed-tQaQ0eoz6pA" name="String: picture"/>
+      <ownedAttribute xmi:id="_MIAhGEi4Ed-tQaQ0eoz6pA" name="DataBean: db"/>
+      <ownedAttribute xmi:id="_MIAhGUi4Ed-tQaQ0eoz6pA" name="ArrayList&lt;CustomertBean> customerinfo"/>
+      <ownedAttribute xmi:id="_MIAhGki4Ed-tQaQ0eoz6pA" name="ArrayList&lt;UsertBean> usernames"/>
+      <ownedAttribute xmi:id="_MIAhG0i4Ed-tQaQ0eoz6pA" name="">
+        <qualifier xmi:id="_MIAhHEi4Ed-tQaQ0eoz6pA" name="String: firstname"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MIAhHUi4Ed-tQaQ0eoz6pA" name="int: loginid">
+        <qualifier xmi:id="_MIAhHki4Ed-tQaQ0eoz6pA" name="int: customerid"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MIAhH0i4Ed-tQaQ0eoz6pA" name="int: customerid"/>
+      <ownedAttribute xmi:id="_MIAhIEi4Ed-tQaQ0eoz6pA" name="String: firstname"/>
+      <ownedAttribute xmi:id="_MIAhIUi4Ed-tQaQ0eoz6pA" name="String: lastname"/>
+      <ownedAttribute xmi:id="_MIAhIki4Ed-tQaQ0eoz6pA" name="String: email"/>
+      <ownedAttribute xmi:id="_MIAhI0i4Ed-tQaQ0eoz6pA" name="String: username"/>
+      <ownedAttribute xmi:id="_MIAhJEi4Ed-tQaQ0eoz6pA" name="String: password"/>
+      <ownedAttribute xmi:id="_MIAhJUi4Ed-tQaQ0eoz6pA" name="int: manager"/>
+      <ownedAttribute xmi:id="_MIAhJki4Ed-tQaQ0eoz6pA" name="mtd: void buildcustomers()"/>
+      <ownedAttribute xmi:id="_MIAhJ0i4Ed-tQaQ0eoz6pA" name="mtd: void buildusernames()"/>
+      <ownedAttribute xmi:id="_MIAhKEi4Ed-tQaQ0eoz6pA" name="mtd: int getusersize()"/>
+      <ownedAttribute xmi:id="_MIAhKUi4Ed-tQaQ0eoz6pA" name="mtd: int getcustomersize()"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_MIAhKki4Ed-tQaQ0eoz6pA" name="ProductBean">
+        <ownedAttribute xmi:id="_MIAhK0i4Ed-tQaQ0eoz6pA" name="String: name"/>
+        <ownedAttribute xmi:id="_MIAhLEi4Ed-tQaQ0eoz6pA" name="String: price"/>
+        <ownedAttribute xmi:id="_MIAhLUi4Ed-tQaQ0eoz6pA" name="String: amount"/>
+        <ownedAttribute xmi:id="_MIAhLki4Ed-tQaQ0eoz6pA" name="String: inventory"/>
+        <ownedAttribute xmi:id="_MIAhL0i4Ed-tQaQ0eoz6pA" name="String: subtotal"/>
+        <ownedAttribute xmi:id="_MIAhMEi4Ed-tQaQ0eoz6pA" name="String: picture"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_MITcAEi4Ed-tQaQ0eoz6pA" name="CustomerBean">
+      <ownedAttribute xmi:id="_MITcAUi4Ed-tQaQ0eoz6pA" name="int: customerid"/>
+      <ownedAttribute xmi:id="_MITcAki4Ed-tQaQ0eoz6pA" name="String: firstname"/>
+      <ownedAttribute xmi:id="_MITcA0i4Ed-tQaQ0eoz6pA" name="String: lastname"/>
+      <ownedAttribute xmi:id="_MITcBEi4Ed-tQaQ0eoz6pA" name="String: email"/>
+      <ownedAttribute xmi:id="_MITcBUi4Ed-tQaQ0eoz6pA" name="String: subtotal"/>
+      <ownedAttribute xmi:id="_MITcBki4Ed-tQaQ0eoz6pA" name="String: picture"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_XuYuUEi4Ed-tQaQ0eoz6pA" name="InventoryBean" clientDependency="_xi9fpki4Ed-tQaQ0eoz6pA _qlwiZEzpEd-1p8YNpD8H1A">
+      <ownedAttribute xmi:id="_XuYuUUi4Ed-tQaQ0eoz6pA" name="btn: confirm"/>
+      <ownedAttribute xmi:id="_XuYuUki4Ed-tQaQ0eoz6pA" name="DataBean: db"/>
+      <ownedAttribute xmi:id="_XuYuU0i4Ed-tQaQ0eoz6pA" name="SignupBean: sb">
+        <qualifier xmi:id="_XuYuVEi4Ed-tQaQ0eoz6pA" name="DataBean: db"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_XuYuVUi4Ed-tQaQ0eoz6pA" name="LoginBean: lb"/>
+      <ownedAttribute xmi:id="_XuYuVki4Ed-tQaQ0eoz6pA" name="int: total"/>
+      <ownedAttribute xmi:id="_XuYuV0i4Ed-tQaQ0eoz6pA" name="String: validusername"/>
+      <ownedAttribute xmi:id="_XuYuWEi4Ed-tQaQ0eoz6pA" name="int: size"/>
+      <ownedAttribute xmi:id="_XuYuWUi4Ed-tQaQ0eoz6pA" name="String: validpassword">
+        <qualifier xmi:id="_XuYuWki4Ed-tQaQ0eoz6pA" name="String: validpassword"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_XuYuW0i4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_XuYuXEi4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_XuYuXUi4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_XuYuXki4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_XuYuX0i4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_XuYuYEi4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_XuYuYUi4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_XuYuYki4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_XuYuY0i4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_XuYuZEi4Ed-tQaQ0eoz6pA" name="boolean uNameUnique"/>
+      <ownedAttribute xmi:id="_XuYuZUi4Ed-tQaQ0eoz6pA" name="ArrayList&lt;ProductBean> info"/>
+      <ownedAttribute xmi:id="_XuYuZki4Ed-tQaQ0eoz6pA" name="String total"/>
+      <ownedAttribute xmi:id="_XuYuZ0i4Ed-tQaQ0eoz6pA" name="int: size"/>
+      <ownedAttribute xmi:id="_XuYuaEi4Ed-tQaQ0eoz6pA" name="mtd: int getcount()"/>
+      <ownedAttribute xmi:id="_XuYuaUi4Ed-tQaQ0eoz6pA" name="mtd: void buildinfo()"/>
+      <ownedAttribute xmi:id="_XuYuaki4Ed-tQaQ0eoz6pA" name="mtd: void resetamounts()"/>
+      <ownedAttribute xmi:id="_XuYua0i4Ed-tQaQ0eoz6pA" name="mtd: double mod()"/>
+      <ownedAttribute xmi:id="_XuYubEi4Ed-tQaQ0eoz6pA" name="mtd: String clearall()"/>
+      <ownedAttribute xmi:id="_XuYubUi4Ed-tQaQ0eoz6pA" name="mtd: void getout()"/>
+      <ownedAttribute xmi:id="_XuYubki4Ed-tQaQ0eoz6pA" name="mtd: String total()"/>
+      <ownedAttribute xmi:id="_XuYub0i4Ed-tQaQ0eoz6pA" name="mtd: void cleanse()"/>
+      <ownedAttribute xmi:id="_XuYucEi4Ed-tQaQ0eoz6pA" name="mtd: void reducecoverage()"/>
+      <ownedAttribute xmi:id="_XuYucUi4Ed-tQaQ0eoz6pA" name="mtd: boolean checkit(String target)"/>
+      <ownedAttribute xmi:id="_XuYucki4Ed-tQaQ0eoz6pA" name="String username"/>
+      <ownedAttribute xmi:id="_XuYuc0i4Ed-tQaQ0eoz6pA" name="String password"/>
+      <ownedAttribute xmi:id="_XuYudEi4Ed-tQaQ0eoz6pA" name="String correctUname"/>
+      <ownedAttribute xmi:id="_XuYudUi4Ed-tQaQ0eoz6pA" name="String correctPword"/>
+      <ownedAttribute xmi:id="_XuYudki4Ed-tQaQ0eoz6pA" name="boolean pWordValid"/>
+      <ownedAttribute xmi:id="_XuYud0i4Ed-tQaQ0eoz6pA" name="boolean uNameUnique"/>
+      <ownedAttribute xmi:id="_XuYueEi4Ed-tQaQ0eoz6pA" name="boolean uNameValid"/>
+      <ownedAttribute xmi:id="_XuYueUi4Ed-tQaQ0eoz6pA" name="String firstName"/>
+      <ownedAttribute xmi:id="_XuYueki4Ed-tQaQ0eoz6pA" name="String lastName"/>
+      <ownedAttribute xmi:id="_XuYue0i4Ed-tQaQ0eoz6pA" name="String email"/>
+      <ownedAttribute xmi:id="_XuYufEi4Ed-tQaQ0eoz6pA" name="mtd: String signupHandler()"/>
+      <ownedAttribute xmi:id="_kYTcMEi4Ed-tQaQ0eoz6pA" name="DataBean: db"/>
+      <ownedAttribute xmi:id="_4fQMsDwdEd-piaG2GHSWwg" name="ArrayList&lt;ProductBean> info"/>
+      <ownedAttribute xmi:id="_PDakAD0MEd-g2JveKmkCYw" name="int: size"/>
+      <ownedAttribute xmi:id="_olPYcD0MEd-g2JveKmkCYw" name="mtd: int getcount()"/>
+      <ownedAttribute xmi:id="_swvIgD0MEd-g2JveKmkCYw" name="mtd: void buildinfo()"/>
+      <ownedAttribute xmi:id="_9yNFcD0MEd-g2JveKmkCYw" name="mtd: void resetamounts()"/>
+      <ownedAttribute xmi:id="_6BvAUD0TEd-g2JveKmkCYw" name="mtd: double mod()"/>
+      <ownedAttribute xmi:id="__rQNkD0TEd-g2JveKmkCYw" name="mtd: String clearall()"/>
+      <ownedAttribute xmi:id="_E0WOUD0UEd-g2JveKmkCYw" name="mtd: void getout()"/>
+      <ownedAttribute xmi:id="_G3RIUD0UEd-g2JveKmkCYw" name="mtd: String total()"/>
+      <ownedAttribute xmi:id="_LKf4ED0UEd-g2JveKmkCYw" name="mtd: void cleanse()"/>
+      <ownedAttribute xmi:id="_LUKxcD0UEd-g2JveKmkCYw" name="mtd: void reducecoverage()"/>
+      <ownedAttribute xmi:id="_VQeCgD0UEd-g2JveKmkCYw" name="mtd: boolean checkit(String target)"/>
+      <ownedAttribute xmi:id="_kNF3ID32Ed-dmsBPPmsOdw" name="mtd: String signupHandler()"/>
+      <ownedAttribute xmi:id="_eLWRIEzeEd-1p8YNpD8H1A" name="ArrayList&lt;ProductBean> newproducts"/>
+      <ownedAttribute xmi:id="_gybBEEzeEd-1p8YNpD8H1A" name="ArrayList&lt;Boolean> deleteproduct"/>
+      <ownedAttribute xmi:id="_kGRXcEzeEd-1p8YNpD8H1A" name="ArrayList&lt;String> tables"/>
+      <ownedAttribute xmi:id="_q8aI0EzeEd-1p8YNpD8H1A" name="int productid"/>
+      <ownedAttribute xmi:id="_vDcPoEzeEd-1p8YNpD8H1A" name="String productname"/>
+      <ownedAttribute xmi:id="_yCxHgEzeEd-1p8YNpD8H1A" name="String productprice"/>
+      <ownedAttribute xmi:id="_ziIBcEzeEd-1p8YNpD8H1A" name="String productinventory"/>
+      <ownedAttribute xmi:id="_05dAwEzeEd-1p8YNpD8H1A" name="String producttable"/>
+      <ownedAttribute xmi:id="_2_zCMEzeEd-1p8YNpD8H1A" name="String productpicture"/>
+      <ownedAttribute xmi:id="_5AyCgEzeEd-1p8YNpD8H1A" name="String productdescription"/>
+      <ownedAttribute xmi:id="_9VpxAEzeEd-1p8YNpD8H1A" name="String total"/>
+      <ownedAttribute xmi:id="_-_k8MEzeEd-1p8YNpD8H1A" name="String error"/>
+      <ownedAttribute xmi:id="_Vao0AEzfEd-1p8YNpD8H1A" name="void starttables()"/>
+      <ownedAttribute xmi:id="_cbfnoEzfEd-1p8YNpD8H1A" name="int getcount()"/>
+      <ownedAttribute xmi:id="_vM1mwEzfEd-1p8YNpD8H1A" name="int findproductidof(String u)"/>
+      <ownedAttribute xmi:id="_x9IkIEzfEd-1p8YNpD8H1A" name="boolean determinetable(String table)"/>
+      <ownedAttribute xmi:id="_1LL0gEzfEd-1p8YNpD8H1A" name="boolean verifytable(String table)"/>
+      <ownedAttribute xmi:id="_4fon0EzfEd-1p8YNpD8H1A" name="boolean createtable(String table)"/>
+      <ownedAttribute xmi:id="_9o3ygEzfEd-1p8YNpD8H1A" name="void updateproducts()"/>
+      <ownedAttribute xmi:id="_BC960EzgEd-1p8YNpD8H1A" name="int determinecount(String theTable)"/>
+      <ownedAttribute xmi:id="_D2-6kEzgEd-1p8YNpD8H1A" name="String createproduct()"/>
+      <ownedAttribute xmi:id="_HG06sEzgEd-1p8YNpD8H1A" name="boolean validateproductname(String theTable)"/>
+      <ownedAttribute xmi:id="_MCXnoEzgEd-1p8YNpD8H1A" name="void deletetable()"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_xi9fpki4Ed-tQaQ0eoz6pA" name="Dependency35" supplier="_sV-G8Dt-Ed-mh7NwBQfiOw" client="_XuYuUEi4Ed-tQaQ0eoz6pA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_yeBZtEi4Ed-tQaQ0eoz6pA" name="Dependency36" supplier="_XuYuUEi4Ed-tQaQ0eoz6pA" client="_sAGkoDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_0ZgO8Ei4Ed-tQaQ0eoz6pA" name="InventoryBean">
+      <ownedAttribute xmi:id="_0ZgO8Ui4Ed-tQaQ0eoz6pA" name=""/>
+      <ownedAttribute xmi:id="_0ZgO8ki4Ed-tQaQ0eoz6pA" name="DataBean: db"/>
+      <ownedAttribute xmi:id="_0ZgO80i4Ed-tQaQ0eoz6pA" name="SignupBean: sb">
+        <qualifier xmi:id="_0ZgO9Ei4Ed-tQaQ0eoz6pA" name="DataBean: db"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_0ZgO9Ui4Ed-tQaQ0eoz6pA" name="LoginBean: lb"/>
+      <ownedAttribute xmi:id="_0ZgO9ki4Ed-tQaQ0eoz6pA" name="int: total"/>
+      <ownedAttribute xmi:id="_0ZgO90i4Ed-tQaQ0eoz6pA" name="String: validusername"/>
+      <ownedAttribute xmi:id="_0ZgO-Ei4Ed-tQaQ0eoz6pA" name="int: size"/>
+      <ownedAttribute xmi:id="_0ZgO-Ui4Ed-tQaQ0eoz6pA" name="String: validpassword">
+        <qualifier xmi:id="_0ZgO-ki4Ed-tQaQ0eoz6pA" name="String: validpassword"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_0ZgO-0i4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_0ZgO_Ei4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_0ZgO_Ui4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_0ZgO_ki4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_0ZgO_0i4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_0ZgPAEi4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_0ZgPAUi4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_0ZgPAki4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_0ZgPA0i4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_0ZgPBEi4Ed-tQaQ0eoz6pA" name="boolean uNameUnique"/>
+      <ownedAttribute xmi:id="_0ZgPBUi4Ed-tQaQ0eoz6pA" name="ArrayList&lt;ProductBean> info"/>
+      <ownedAttribute xmi:id="_0ZgPBki4Ed-tQaQ0eoz6pA" name="String total"/>
+      <ownedAttribute xmi:id="_0ZgPB0i4Ed-tQaQ0eoz6pA" name="int: size"/>
+      <ownedAttribute xmi:id="_0ZgPCEi4Ed-tQaQ0eoz6pA" name="mtd: int getcount()"/>
+      <ownedAttribute xmi:id="_0ZgPCUi4Ed-tQaQ0eoz6pA" name="mtd: void buildinfo()"/>
+      <ownedAttribute xmi:id="_0ZgPCki4Ed-tQaQ0eoz6pA" name="mtd: void resetamounts()"/>
+      <ownedAttribute xmi:id="_0ZgPC0i4Ed-tQaQ0eoz6pA" name="mtd: double mod()"/>
+      <ownedAttribute xmi:id="_0ZgPDEi4Ed-tQaQ0eoz6pA" name="mtd: String clearall()"/>
+      <ownedAttribute xmi:id="_0ZgPDUi4Ed-tQaQ0eoz6pA" name="mtd: void getout()"/>
+      <ownedAttribute xmi:id="_0ZgPDki4Ed-tQaQ0eoz6pA" name="mtd: String total()"/>
+      <ownedAttribute xmi:id="_0ZgPD0i4Ed-tQaQ0eoz6pA" name="mtd: void cleanse()"/>
+      <ownedAttribute xmi:id="_0ZgPEEi4Ed-tQaQ0eoz6pA" name="mtd: void reducecoverage()"/>
+      <ownedAttribute xmi:id="_0ZgPEUi4Ed-tQaQ0eoz6pA" name="mtd: boolean checkit(String target)"/>
+      <ownedAttribute xmi:id="_0ZgPEki4Ed-tQaQ0eoz6pA" name="String username"/>
+      <ownedAttribute xmi:id="_0ZgPE0i4Ed-tQaQ0eoz6pA" name="String password"/>
+      <ownedAttribute xmi:id="_0ZgPFEi4Ed-tQaQ0eoz6pA" name="String correctUname"/>
+      <ownedAttribute xmi:id="_0ZgPFUi4Ed-tQaQ0eoz6pA" name="String correctPword"/>
+      <ownedAttribute xmi:id="_0ZgPFki4Ed-tQaQ0eoz6pA" name="boolean pWordValid"/>
+      <ownedAttribute xmi:id="_0ZgPF0i4Ed-tQaQ0eoz6pA" name="boolean uNameUnique"/>
+      <ownedAttribute xmi:id="_0ZgPGEi4Ed-tQaQ0eoz6pA" name="boolean uNameValid"/>
+      <ownedAttribute xmi:id="_0ZgPGUi4Ed-tQaQ0eoz6pA" name="String firstName"/>
+      <ownedAttribute xmi:id="_0ZgPGki4Ed-tQaQ0eoz6pA" name="String lastName"/>
+      <ownedAttribute xmi:id="_0ZgPG0i4Ed-tQaQ0eoz6pA" name="String email"/>
+      <ownedAttribute xmi:id="_0ZgPHEi4Ed-tQaQ0eoz6pA" name="mtd: String signupHandler()"/>
+      <ownedAttribute xmi:id="_0ZgPHUi4Ed-tQaQ0eoz6pA" name="DataBean: db"/>
+      <ownedAttribute xmi:id="_0ZgPHki4Ed-tQaQ0eoz6pA" name="ArrayList&lt;ProductBean> info"/>
+      <ownedAttribute xmi:id="_0ZgPH0i4Ed-tQaQ0eoz6pA" name="int: size"/>
+      <ownedAttribute xmi:id="_0ZgPIEi4Ed-tQaQ0eoz6pA" name="mtd: int getcount()"/>
+      <ownedAttribute xmi:id="_0ZgPIUi4Ed-tQaQ0eoz6pA" name="mtd: void buildinfo()"/>
+      <ownedAttribute xmi:id="_0ZgPIki4Ed-tQaQ0eoz6pA" name="mtd: void resetamounts()"/>
+      <ownedAttribute xmi:id="_0ZgPI0i4Ed-tQaQ0eoz6pA" name="mtd: double mod()"/>
+      <ownedAttribute xmi:id="_0ZgPJEi4Ed-tQaQ0eoz6pA" name="mtd: String clearall()"/>
+      <ownedAttribute xmi:id="_0ZgPJUi4Ed-tQaQ0eoz6pA" name="mtd: void getout()"/>
+      <ownedAttribute xmi:id="_0ZgPJki4Ed-tQaQ0eoz6pA" name="mtd: String total()"/>
+      <ownedAttribute xmi:id="_0ZgPJ0i4Ed-tQaQ0eoz6pA" name="mtd: void cleanse()"/>
+      <ownedAttribute xmi:id="_0ZgPKEi4Ed-tQaQ0eoz6pA" name="mtd: void reducecoverage()"/>
+      <ownedAttribute xmi:id="_0ZgPKUi4Ed-tQaQ0eoz6pA" name="mtd: boolean checkit(String target)"/>
+      <ownedAttribute xmi:id="_0ZgPKki4Ed-tQaQ0eoz6pA" name="mtd: String signupHandler()"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7-EMkEi4Ed-tQaQ0eoz6pA" name="OrderBean" clientDependency="_lc0E5UzkEd-1p8YNpD8H1A _luzz1UzkEd-1p8YNpD8H1A _paVRFEzpEd-1p8YNpD8H1A">
+      <ownedAttribute xmi:id="_7-EMkUi4Ed-tQaQ0eoz6pA" name="btn: confirm"/>
+      <ownedAttribute xmi:id="_7-EMkki4Ed-tQaQ0eoz6pA" name="DataBean: db"/>
+      <ownedAttribute xmi:id="_7-EMk0i4Ed-tQaQ0eoz6pA" name="SignupBean: sb">
+        <qualifier xmi:id="_7-EMlEi4Ed-tQaQ0eoz6pA" name="DataBean: db"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_7-EMlUi4Ed-tQaQ0eoz6pA" name="LoginBean: lb"/>
+      <ownedAttribute xmi:id="_7-EMlki4Ed-tQaQ0eoz6pA" name="int: total"/>
+      <ownedAttribute xmi:id="_7-EMl0i4Ed-tQaQ0eoz6pA" name="String: validusername"/>
+      <ownedAttribute xmi:id="_7-EMmEi4Ed-tQaQ0eoz6pA" name="int: size"/>
+      <ownedAttribute xmi:id="_7-EMmUi4Ed-tQaQ0eoz6pA" name="String: validpassword">
+        <qualifier xmi:id="_7-EMmki4Ed-tQaQ0eoz6pA" name="String: validpassword"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_7-EMm0i4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_7-EMnEi4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_7-EMnUi4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_7-EMnki4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_7-EMn0i4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_7-EMoEi4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_7-EMoUi4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_7-EMoki4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_7-EMo0i4Ed-tQaQ0eoz6pA"/>
+      <ownedAttribute xmi:id="_7-EMpEi4Ed-tQaQ0eoz6pA" name="boolean uNameUnique"/>
+      <ownedAttribute xmi:id="_7-EMpUi4Ed-tQaQ0eoz6pA" name="String total"/>
+      <ownedAttribute xmi:id="_7-EMpki4Ed-tQaQ0eoz6pA" name="String username"/>
+      <ownedAttribute xmi:id="_7-EMp0i4Ed-tQaQ0eoz6pA" name="String password"/>
+      <ownedAttribute xmi:id="_7-EMqEi4Ed-tQaQ0eoz6pA" name="String correctUname"/>
+      <ownedAttribute xmi:id="_7-EMqUi4Ed-tQaQ0eoz6pA" name="String correctPword"/>
+      <ownedAttribute xmi:id="_7-EMqki4Ed-tQaQ0eoz6pA" name="boolean pWordValid"/>
+      <ownedAttribute xmi:id="_7-EMq0i4Ed-tQaQ0eoz6pA" name="boolean uNameUnique"/>
+      <ownedAttribute xmi:id="_7-EMrEi4Ed-tQaQ0eoz6pA" name="boolean uNameValid"/>
+      <ownedAttribute xmi:id="_7-EMrUi4Ed-tQaQ0eoz6pA" name="String firstName"/>
+      <ownedAttribute xmi:id="_7-EMrki4Ed-tQaQ0eoz6pA" name="String lastName"/>
+      <ownedAttribute xmi:id="_7-EMr0i4Ed-tQaQ0eoz6pA" name="String email"/>
+      <ownedAttribute xmi:id="_7-EMsEi4Ed-tQaQ0eoz6pA" name="mtd: String signupHandler()"/>
+      <ownedAttribute xmi:id="_AmtysEi5Ed-tQaQ0eoz6pA" name="ArrayList&lt;RecordBean> info"/>
+      <ownedAttribute xmi:id="_lPEgoEzgEd-1p8YNpD8H1A" name="DataBean: db"/>
+      <ownedAttribute xmi:id="_bzf-EEzgEd-1p8YNpD8H1A" name="ArrayList&lt;RecordBean> recordlist"/>
+      <ownedAttribute xmi:id="_hT8u4EzgEd-1p8YNpD8H1A" name="ArrayList&lt;PurchaseBean> purchaselist"/>
+      <ownedAttribute xmi:id="_n0EM8EzgEd-1p8YNpD8H1A" name="String error"/>
+      <ownedAttribute xmi:id="_n0EM8UzgEd-1p8YNpD8H1A" name="boolean same"/>
+      <ownedAttribute xmi:id="_z5ZAAEzgEd-1p8YNpD8H1A" name="int recordid"/>
+      <ownedAttribute xmi:id="_3tFUEEzgEd-1p8YNpD8H1A" name="String username">
+        <qualifier xmi:id="_3-oXEEzgEd-1p8YNpD8H1A" name="int recordid"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_4YhdwEzgEd-1p8YNpD8H1A" name="String email"/>
+      <ownedAttribute xmi:id="_7opxwEzgEd-1p8YNpD8H1A" name="String rfname"/>
+      <ownedAttribute xmi:id="_9DQukEzgEd-1p8YNpD8H1A" name="String rlname"/>
+      <ownedAttribute xmi:id="_-ktTMEzgEd-1p8YNpD8H1A" name="String rstreet"/>
+      <ownedAttribute xmi:id="_Am4mUEzhEd-1p8YNpD8H1A" name="String rcity"/>
+      <ownedAttribute xmi:id="_CpW0YEzhEd-1p8YNpD8H1A" name="String rstate"/>
+      <ownedAttribute xmi:id="_D3dmQEzhEd-1p8YNpD8H1A" name="String rcountry"/>
+      <ownedAttribute xmi:id="_F163AEzhEd-1p8YNpD8H1A" name="String rpcode"/>
+      <ownedAttribute xmi:id="_H3zPMEzhEd-1p8YNpD8H1A" name="String rphone"/>
+      <ownedAttribute xmi:id="_J1g5EEzhEd-1p8YNpD8H1A" name="String bfname"/>
+      <ownedAttribute xmi:id="_MquLoEzhEd-1p8YNpD8H1A" name="String blname"/>
+      <ownedAttribute xmi:id="_OqENMEzhEd-1p8YNpD8H1A" name="String bstreet"/>
+      <ownedAttribute xmi:id="_QOMSYEzhEd-1p8YNpD8H1A" name="String bcity"/>
+      <ownedAttribute xmi:id="_TvcLkEzhEd-1p8YNpD8H1A" name="String bstate"/>
+      <ownedAttribute xmi:id="_WnxDkEzhEd-1p8YNpD8H1A" name="String bcountry"/>
+      <ownedAttribute xmi:id="_YUE0YEzhEd-1p8YNpD8H1A" name="String bpcode"/>
+      <ownedAttribute xmi:id="_azjukEzhEd-1p8YNpD8H1A" name="String bphone"/>
+      <ownedAttribute xmi:id="_cTX7gEzhEd-1p8YNpD8H1A" name="String cctype"/>
+      <ownedAttribute xmi:id="_eg2fsEzhEd-1p8YNpD8H1A" name="String ccnumber"/>
+      <ownedAttribute xmi:id="_h3PMsEzhEd-1p8YNpD8H1A" name="String ccexp"/>
+      <ownedAttribute xmi:id="_jNE-QEzhEd-1p8YNpD8H1A" name="String cccode"/>
+      <ownedAttribute xmi:id="_lRo3AEzhEd-1p8YNpD8H1A" name="String dop"/>
+      <ownedAttribute xmi:id="_nG3TQEzhEd-1p8YNpD8H1A" name="String total"/>
+      <ownedAttribute xmi:id="_pE4fIEzhEd-1p8YNpD8H1A" name="String purchaseid"/>
+      <ownedAttribute xmi:id="_DoBmoEziEd-1p8YNpD8H1A" name="String productname"/>
+      <ownedAttribute xmi:id="_E_M08EziEd-1p8YNpD8H1A" name="String productprice"/>
+      <ownedAttribute xmi:id="_GxAw0EziEd-1p8YNpD8H1A" name="String productamount"/>
+      <ownedAttribute xmi:id="_JLSa4EziEd-1p8YNpD8H1A" name="String productsubtotal"/>
+      <ownedAttribute xmi:id="_M9fhMEziEd-1p8YNpD8H1A" name="String productdescription"/>
+      <ownedAttribute xmi:id="_XZyg8EziEd-1p8YNpD8H1A" name="void buildrecords()"/>
+      <ownedAttribute xmi:id="_bhHisEziEd-1p8YNpD8H1A" name="void buildreceipts()"/>
+      <ownedAttribute xmi:id="_e25ywEziEd-1p8YNpD8H1A" name="boolean isOrderGood()"/>
+      <ownedAttribute xmi:id="_i_uCQEziEd-1p8YNpD8H1A" name="double mod(String target)"/>
+      <ownedAttribute xmi:id="_ksefAEziEd-1p8YNpD8H1A" name="int getpurchasesize(int input)"/>
+      <ownedAttribute xmi:id="_nblJkEziEd-1p8YNpD8H1A" name="String fetchpurchase(int index, int num, int property)"/>
+      <ownedAttribute xmi:id="_0XDhgEziEd-1p8YNpD8H1A" name="void resetHandler()"/>
+      <ownedAttribute xmi:id="_38KnAEziEd-1p8YNpD8H1A" name="void clearAll()"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_HipqFUi5Ed-tQaQ0eoz6pA" name="Dependency37" supplier="_7-EMkEi4Ed-tQaQ0eoz6pA" client="_sAGkoDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_el9-UEzjEd-1p8YNpD8H1A" name="RecordBean">
+      <ownedAttribute xmi:id="_el9-UUzjEd-1p8YNpD8H1A" name="int recordid"/>
+      <ownedAttribute xmi:id="_el9-UkzjEd-1p8YNpD8H1A" name="String username"/>
+      <ownedAttribute xmi:id="_el9-U0zjEd-1p8YNpD8H1A" name="String email"/>
+      <ownedAttribute xmi:id="_el9-VEzjEd-1p8YNpD8H1A" name="String rfname"/>
+      <ownedAttribute xmi:id="_el9-VUzjEd-1p8YNpD8H1A" name="String rlname"/>
+      <ownedAttribute xmi:id="_el9-VkzjEd-1p8YNpD8H1A" name="String rstreet"/>
+      <ownedAttribute xmi:id="_D4TMYEzkEd-1p8YNpD8H1A" name="String rcity"/>
+      <ownedAttribute xmi:id="_GTeOUEzkEd-1p8YNpD8H1A" name="String rstate"/>
+      <ownedAttribute xmi:id="_HzugIEzkEd-1p8YNpD8H1A" name="String rcountry"/>
+      <ownedAttribute xmi:id="_LBn_gEzkEd-1p8YNpD8H1A" name="String rpcode"/>
+      <ownedAttribute xmi:id="_NCUE4EzkEd-1p8YNpD8H1A" name="String rphone"/>
+      <ownedAttribute xmi:id="_UjTKEEzkEd-1p8YNpD8H1A" name="String bfname"/>
+      <ownedAttribute xmi:id="_UjTKEUzkEd-1p8YNpD8H1A" name="String blname"/>
+      <ownedAttribute xmi:id="_UjTKEkzkEd-1p8YNpD8H1A" name="String bstreet"/>
+      <ownedAttribute xmi:id="_UjTKE0zkEd-1p8YNpD8H1A" name="String bcity"/>
+      <ownedAttribute xmi:id="_UjTKFEzkEd-1p8YNpD8H1A" name="String bstate"/>
+      <ownedAttribute xmi:id="_UjTKFUzkEd-1p8YNpD8H1A" name="String bcountry"/>
+      <ownedAttribute xmi:id="_UjTKFkzkEd-1p8YNpD8H1A" name="String bpcode"/>
+      <ownedAttribute xmi:id="_UjTKF0zkEd-1p8YNpD8H1A" name="String bphone"/>
+      <ownedAttribute xmi:id="_aiP0wEzkEd-1p8YNpD8H1A" name="String cctype"/>
+      <ownedAttribute xmi:id="_b7W8wEzkEd-1p8YNpD8H1A" name="String ccnumber"/>
+      <ownedAttribute xmi:id="_c7x38EzkEd-1p8YNpD8H1A" name="String ccexp"/>
+      <ownedAttribute xmi:id="_d_61gEzkEd-1p8YNpD8H1A" name="String cccode"/>
+      <ownedAttribute xmi:id="_fCklUEzkEd-1p8YNpD8H1A" name="String dop"/>
+      <ownedAttribute xmi:id="_gPVTYEzkEd-1p8YNpD8H1A" name="String total"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_fbYjYEzjEd-1p8YNpD8H1A" name="PurchaseBean">
+      <ownedAttribute xmi:id="_fbYjYUzjEd-1p8YNpD8H1A" name="int purchaseid"/>
+      <ownedAttribute xmi:id="_fbYjYkzjEd-1p8YNpD8H1A" name="int recordid"/>
+      <ownedAttribute xmi:id="_fbYjY0zjEd-1p8YNpD8H1A" name="String productname"/>
+      <ownedAttribute xmi:id="_fbYjZEzjEd-1p8YNpD8H1A" name="String productprice"/>
+      <ownedAttribute xmi:id="_fbYjZUzjEd-1p8YNpD8H1A" name="String productamount"/>
+      <ownedAttribute xmi:id="_fbYjZkzjEd-1p8YNpD8H1A" name="String productsubtotal"/>
+      <ownedAttribute xmi:id="_yqVEgEzjEd-1p8YNpD8H1A" name="String productdescription"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_lc0E5UzkEd-1p8YNpD8H1A" name="Dependency38" supplier="_el9-UEzjEd-1p8YNpD8H1A" client="_7-EMkEi4Ed-tQaQ0eoz6pA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_luzz1UzkEd-1p8YNpD8H1A" name="Dependency39" supplier="_fbYjYEzjEd-1p8YNpD8H1A" client="_7-EMkEi4Ed-tQaQ0eoz6pA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yKg0oEzmEd-1p8YNpD8H1A" name="Table: tablenames">
+      <ownedAttribute xmi:id="_yKg0oUzmEd-1p8YNpD8H1A" name="varchar(20)"/>
+      <ownedAttribute xmi:id="_yKg0okzmEd-1p8YNpD8H1A" name="int: customerid (fk)"/>
+      <ownedAttribute xmi:id="_yKg0o0zmEd-1p8YNpD8H1A" name="varchar(20): username">
+        <qualifier xmi:id="_yKg0pEzmEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_yKg0pUzmEd-1p8YNpD8H1A" name="varchar(20) password">
+        <qualifier xmi:id="_yKg0pkzmEd-1p8YNpD8H1A" name="clm: password"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_yKg0p0zmEd-1p8YNpD8H1A" name="int (boolean): manager"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_yKg0qEzmEd-1p8YNpD8H1A" name="Table: usernames"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="__Kdc4EzmEd-1p8YNpD8H1A" name="Table: newts">
+      <ownedAttribute xmi:id="__Kdc4UzmEd-1p8YNpD8H1A" name="int productid (pk)"/>
+      <ownedAttribute xmi:id="__Kdc4kzmEd-1p8YNpD8H1A" name="varchar(20) productname"/>
+      <ownedAttribute xmi:id="__Kdc40zmEd-1p8YNpD8H1A" name="double productprice">
+        <qualifier xmi:id="__Kdc5EzmEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="__Kdc5UzmEd-1p8YNpD8H1A" name="int inventory">
+        <qualifier xmi:id="__Kdc5kzmEd-1p8YNpD8H1A" name="clm: password"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="__Kdc50zmEd-1p8YNpD8H1A" name="varchar(100) picture"/>
+      <ownedAttribute xmi:id="_U8dwoEznEd-1p8YNpD8H1A" name="varchar(1000) description"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="__Kdc6EzmEd-1p8YNpD8H1A" name="Table: usernames"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dKFSUEznEd-1p8YNpD8H1A" name="Table: salamanders">
+      <ownedAttribute xmi:id="_dKFSUUznEd-1p8YNpD8H1A" name="int productid (pk)"/>
+      <ownedAttribute xmi:id="_dKFSUkznEd-1p8YNpD8H1A" name="varchar(20) productname"/>
+      <ownedAttribute xmi:id="_dKFSU0znEd-1p8YNpD8H1A" name="double productprice">
+        <qualifier xmi:id="_dKFSVEznEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dKFSVUznEd-1p8YNpD8H1A" name="int inventory">
+        <qualifier xmi:id="_dKFSVkznEd-1p8YNpD8H1A" name="clm: password"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dKFSV0znEd-1p8YNpD8H1A" name="varchar(100) picture"/>
+      <ownedAttribute xmi:id="_dKFSWEznEd-1p8YNpD8H1A" name="varchar(1000) description"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_dKFSWUznEd-1p8YNpD8H1A" name="Table: usernames"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_fM2bUEznEd-1p8YNpD8H1A" name="Table: newts">
+        <ownedAttribute xmi:id="_fM2bUUznEd-1p8YNpD8H1A" name="int productid (pk)"/>
+        <ownedAttribute xmi:id="_fM2bUkznEd-1p8YNpD8H1A" name="varchar(20) productname"/>
+        <ownedAttribute xmi:id="_fM2bU0znEd-1p8YNpD8H1A" name="double productprice">
+          <qualifier xmi:id="_fM2bVEznEd-1p8YNpD8H1A" name="clm: username"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_fM2bVUznEd-1p8YNpD8H1A" name="int inventory">
+          <qualifier xmi:id="_fM2bVkznEd-1p8YNpD8H1A" name="clm: password"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_fM2bV0znEd-1p8YNpD8H1A" name="varchar(100) picture"/>
+        <ownedAttribute xmi:id="_fM2bWEznEd-1p8YNpD8H1A" name="varchar(1000) description"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_fM2bWUznEd-1p8YNpD8H1A" name="Table: usernames"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_fcLQwEznEd-1p8YNpD8H1A" name="Table: aquatics">
+      <ownedAttribute xmi:id="_fcLQwUznEd-1p8YNpD8H1A" name="int productid (pk)"/>
+      <ownedAttribute xmi:id="_fcLQwkznEd-1p8YNpD8H1A" name="varchar(20) productname"/>
+      <ownedAttribute xmi:id="_fcLQw0znEd-1p8YNpD8H1A" name="double productprice">
+        <qualifier xmi:id="_fcLQxEznEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_fcLQxUznEd-1p8YNpD8H1A" name="int inventory">
+        <qualifier xmi:id="_fcLQxkznEd-1p8YNpD8H1A" name="clm: password"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_fcLQx0znEd-1p8YNpD8H1A" name="varchar(100) picture"/>
+      <ownedAttribute xmi:id="_fcLQyEznEd-1p8YNpD8H1A" name="varchar(1000) description"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_fcLQyUznEd-1p8YNpD8H1A" name="Table: usernames"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_lpQeEEznEd-1p8YNpD8H1A" name="Table: newts">
+        <ownedAttribute xmi:id="_lpQeEUznEd-1p8YNpD8H1A" name="int productid (pk)"/>
+        <ownedAttribute xmi:id="_lpQeEkznEd-1p8YNpD8H1A" name="varchar(20) productname"/>
+        <ownedAttribute xmi:id="_lpQeE0znEd-1p8YNpD8H1A" name="double productprice">
+          <qualifier xmi:id="_lpQeFEznEd-1p8YNpD8H1A" name="clm: username"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_lpQeFUznEd-1p8YNpD8H1A" name="int inventory">
+          <qualifier xmi:id="_lpQeFkznEd-1p8YNpD8H1A" name="clm: password"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_lpQeF0znEd-1p8YNpD8H1A" name="varchar(100) picture"/>
+        <ownedAttribute xmi:id="_lpQeGEznEd-1p8YNpD8H1A" name="varchar(1000) description"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_lpQeGUznEd-1p8YNpD8H1A" name="Table: usernames"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lz0IQEznEd-1p8YNpD8H1A" name="Table: records">
+      <ownedAttribute xmi:id="_lz0IQUznEd-1p8YNpD8H1A" name="int purchaseid (pk)"/>
+      <ownedAttribute xmi:id="_lz0IQkznEd-1p8YNpD8H1A" name="int recordid (pk)"/>
+      <ownedAttribute xmi:id="_lz0IQ0znEd-1p8YNpD8H1A" name="varchar(20) username">
+        <qualifier xmi:id="_lz0IREznEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_lz0IRUznEd-1p8YNpD8H1A" name="double productprice">
+        <qualifier xmi:id="_lz0IRkznEd-1p8YNpD8H1A" name="clm: password"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_lz0IR0znEd-1p8YNpD8H1A" name="int productamount"/>
+      <ownedAttribute xmi:id="_lz0ISEznEd-1p8YNpD8H1A" name="double productsubtotal"/>
+      <ownedAttribute xmi:id="_4m83IEznEd-1p8YNpD8H1A" name="varchar(1000) description"/>
+      <ownedAttribute xmi:id="_84sZIEznEd-1p8YNpD8H1A" name="varchar(1000) description"/>
+      <ownedAttribute xmi:id="_SuQ-QEzoEd-1p8YNpD8H1A" name="varchar(20) email">
+        <qualifier xmi:id="_SuQ-QUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TjrjUEzoEd-1p8YNpD8H1A" name="varchar(20) rfname">
+        <qualifier xmi:id="_TjrjUUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_UuqIsEzoEd-1p8YNpD8H1A" name="varchar(20) rlname">
+        <qualifier xmi:id="_UuqIsUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_VqBkwEzoEd-1p8YNpD8H1A" name="varchar(20) rstreet">
+        <qualifier xmi:id="_VqBkwUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_XDbnsEzoEd-1p8YNpD8H1A" name="varchar(20) rcity">
+        <qualifier xmi:id="_XDbnsUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_YmXaEEzoEd-1p8YNpD8H1A" name="varchar(20) rstate">
+        <qualifier xmi:id="_YmXaEUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Z7Kp0EzoEd-1p8YNpD8H1A" name="varchar(20) rcountry">
+        <qualifier xmi:id="_Z7Kp0UzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_bHViAEzoEd-1p8YNpD8H1A" name="varchar(20) rpcode">
+        <qualifier xmi:id="_bHViAUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_csgJAEzoEd-1p8YNpD8H1A" name="varchar(20) rphone">
+        <qualifier xmi:id="_csgJAUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_d2AHsEzoEd-1p8YNpD8H1A" name="varchar(20) bfname">
+        <qualifier xmi:id="_d2AHsUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_h-hcQEzoEd-1p8YNpD8H1A" name="varchar(20) blname">
+        <qualifier xmi:id="_h-hcQUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jUqIwEzoEd-1p8YNpD8H1A" name="varchar(20) bstreet">
+        <qualifier xmi:id="_jUqIwUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_kev9UEzoEd-1p8YNpD8H1A" name="varchar(20) bcity">
+        <qualifier xmi:id="_kev9UUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_l20jgEzoEd-1p8YNpD8H1A" name="varchar(20) bstate">
+        <qualifier xmi:id="_l20jgUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_nK4MYEzoEd-1p8YNpD8H1A" name="varchar(20) bcountry">
+        <qualifier xmi:id="_nK4MYUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_omE_EEzoEd-1p8YNpD8H1A" name="varchar(20) bpcode">
+        <qualifier xmi:id="_omE_EUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pu0v0EzoEd-1p8YNpD8H1A" name="varchar(20) bphone">
+        <qualifier xmi:id="_pu0v0UzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_q62eEEzoEd-1p8YNpD8H1A" name="varchar(20) cctype">
+        <qualifier xmi:id="_q62eEUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_sp1vcEzoEd-1p8YNpD8H1A" name="varchar(20) ccnumber">
+        <qualifier xmi:id="_sp1vcUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xgCCUEzoEd-1p8YNpD8H1A" name="varchar(20) ccexp">
+        <qualifier xmi:id="_xgCCUUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_yqj7wEzoEd-1p8YNpD8H1A" name="varchar(20) cccode">
+        <qualifier xmi:id="_yqj7wUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_0cOtsEzoEd-1p8YNpD8H1A" name="varchar(20) dop">
+        <qualifier xmi:id="_0cOtsUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_13bgYEzoEd-1p8YNpD8H1A" name="varchar(20) total">
+        <qualifier xmi:id="_13bgYUzoEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_lz0ISUznEd-1p8YNpD8H1A" name="Table: usernames"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9n2lMEznEd-1p8YNpD8H1A" name="Table: purchases" clientDependency="_jZJxxEzpEd-1p8YNpD8H1A">
+      <generalization xmi:id="_SkLYs0zpEd-1p8YNpD8H1A" general="_lz0IQEznEd-1p8YNpD8H1A"/>
+      <ownedAttribute xmi:id="_9n2lMUznEd-1p8YNpD8H1A" name="int purchaseid (pk)"/>
+      <ownedAttribute xmi:id="_9n2lMkznEd-1p8YNpD8H1A" name="int recordid (fk)"/>
+      <ownedAttribute xmi:id="_9n2lM0znEd-1p8YNpD8H1A" name="varchar(20) productname">
+        <qualifier xmi:id="_9n2lNEznEd-1p8YNpD8H1A" name="clm: username"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_9n2lNUznEd-1p8YNpD8H1A" name="double productprice">
+        <qualifier xmi:id="_9n2lNkznEd-1p8YNpD8H1A" name="clm: password"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_9n2lN0znEd-1p8YNpD8H1A" name="int productamount"/>
+      <ownedAttribute xmi:id="_9n2lOEznEd-1p8YNpD8H1A" name="double productsubtotal"/>
+      <ownedAttribute xmi:id="_9n2lOUznEd-1p8YNpD8H1A" name="varchar(1000) description"/>
+      <ownedAttribute xmi:id="_9n2lOkznEd-1p8YNpD8H1A" name="varchar(1000) description"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_9n2lO0znEd-1p8YNpD8H1A" name="Table: usernames"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_-081A0zoEd-1p8YNpD8H1A" name="Dependency40" supplier="_yKg0oEzmEd-1p8YNpD8H1A" client="_oLkSQD7PEd-kqqLp4gW_UA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="__KEwdUzoEd-1p8YNpD8H1A" name="Dependency41" supplier="_9n2lMEznEd-1p8YNpD8H1A" client="_oLkSQD7PEd-kqqLp4gW_UA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="__hRvhEzoEd-1p8YNpD8H1A" name="Dependency42" supplier="__Kdc4EzmEd-1p8YNpD8H1A" client="_oLkSQD7PEd-kqqLp4gW_UA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="__1z1FUzoEd-1p8YNpD8H1A" name="Dependency43" supplier="_dKFSUEznEd-1p8YNpD8H1A" client="_oLkSQD7PEd-kqqLp4gW_UA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_AKC_tUzpEd-1p8YNpD8H1A" name="Dependency44" supplier="_fcLQwEznEd-1p8YNpD8H1A" client="_oLkSQD7PEd-kqqLp4gW_UA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Af6iBUzpEd-1p8YNpD8H1A" name="Dependency45" supplier="_lz0IQEznEd-1p8YNpD8H1A" client="_oLkSQD7PEd-kqqLp4gW_UA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_hlQyREzpEd-1p8YNpD8H1A" name="Dependency46" supplier="_7-EMkEi4Ed-tQaQ0eoz6pA" client="_sAGkoDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_jD4FVEzpEd-1p8YNpD8H1A" name="Dependency47" supplier="_0Cu2sDwgEd-piaG2GHSWwg" client="_0CvdwDwgEd-piaG2GHSWwg"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_jZJxxEzpEd-1p8YNpD8H1A" name="Dependency48" supplier="_lz0IQEznEd-1p8YNpD8H1A" client="_9n2lMEznEd-1p8YNpD8H1A"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_kzm9lEzpEd-1p8YNpD8H1A" name="Dependency49" supplier="_oLkSQD7PEd-kqqLp4gW_UA" client="_sjXCsDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_laleBEzpEd-1p8YNpD8H1A" name="Dependency50" supplier="_oLkSQD7PEd-kqqLp4gW_UA" client="_r1sEYDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_paVRFEzpEd-1p8YNpD8H1A" name="Dependency51" supplier="_oLkSQD7PEd-kqqLp4gW_UA" client="_7-EMkEi4Ed-tQaQ0eoz6pA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_qlwiZEzpEd-1p8YNpD8H1A" name="Dependency52" supplier="_oLkSQD7PEd-kqqLp4gW_UA" client="_XuYuUEi4Ed-tQaQ0eoz6pA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_3uCANEzpEd-1p8YNpD8H1A" name="Dependency53" supplier="_oLkSQD7PEd-kqqLp4gW_UA" client="_sAGkoDt-Ed-mh7NwBQfiOw"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8Dzcm3fpEd--NaEzKXsQow" name="A_&lt;index.xhtml>_&lt;login.xhtml>" memberEnd="_8DzcnHfpEd--NaEzKXsQow _8Dzcn3fpEd--NaEzKXsQow">
+      <ownedEnd xmi:id="_8DzcnHfpEd--NaEzKXsQow" name="index.xhtml" type="_6WChuDt5Ed-mh7NwBQfiOw" association="_8Dzcm3fpEd--NaEzKXsQow">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8DzcnXfpEd--NaEzKXsQow" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8DzcnnfpEd--NaEzKXsQow" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_8Dzcn3fpEd--NaEzKXsQow" name="login.xhtml" type="_7K2p2Dt5Ed-mh7NwBQfiOw" association="_8Dzcm3fpEd--NaEzKXsQow">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8DzcoHfpEd--NaEzKXsQow" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8DzcoXfpEd--NaEzKXsQow" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_--9mKnfpEd--NaEzKXsQow" name="A_&lt;index.xhtml>_&lt;login.xhtml>_2" memberEnd="_--9mK3fpEd--NaEzKXsQow _--9mLnfpEd--NaEzKXsQow">
+      <ownedEnd xmi:id="_--9mK3fpEd--NaEzKXsQow" name="index.xhtml" type="_6WChuDt5Ed-mh7NwBQfiOw" association="_--9mKnfpEd--NaEzKXsQow">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_--9mLHfpEd--NaEzKXsQow" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_--9mLXfpEd--NaEzKXsQow" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_--9mLnfpEd--NaEzKXsQow" name="login.xhtml" type="_7K2p2Dt5Ed-mh7NwBQfiOw" association="_--9mKnfpEd--NaEzKXsQow">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_--9mL3fpEd--NaEzKXsQow" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_--9mMHfpEd--NaEzKXsQow" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_bkWcwHfrEd-ajacxbal4EQ" name="A_&lt;index.xhtml>_&lt;login.xhtml>_3" memberEnd="_bkWcwXfrEd-ajacxbal4EQ _bkWcxHfrEd-ajacxbal4EQ">
+      <ownedEnd xmi:id="_bkWcwXfrEd-ajacxbal4EQ" name="index.xhtml" type="_6WChuDt5Ed-mh7NwBQfiOw" association="_bkWcwHfrEd-ajacxbal4EQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bkWcwnfrEd-ajacxbal4EQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bkWcw3frEd-ajacxbal4EQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_bkWcxHfrEd-ajacxbal4EQ" name="login.xhtml" type="_7K2p2Dt5Ed-mh7NwBQfiOw" association="_bkWcwHfrEd-ajacxbal4EQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bkWcxXfrEd-ajacxbal4EQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bkWcxnfrEd-ajacxbal4EQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_t6wW4HfsEd-ajacxbal4EQ" name="gayler.kennesaw.edu">
+      <ownedAttribute xmi:id="_t6wW4XfsEd-ajacxbal4EQ" name="btn: end"/>
+      <ownedAttribute xmi:id="_t6wW4nfsEd-ajacxbal4EQ" name="btn: login/logout"/>
+      <ownedAttribute xmi:id="_t6wW43fsEd-ajacxbal4EQ" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_t6wW5HfsEd-ajacxbal4EQ" name="output: username">
+        <qualifier xmi:id="_t6wW5XfsEd-ajacxbal4EQ" name="output: total"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_t6wW5nfsEd-ajacxbal4EQ" name="output: email"/>
+      <ownedAttribute xmi:id="_t6wW53fsEd-ajacxbal4EQ" name="output: recipient information"/>
+      <ownedAttribute xmi:id="_t6wW6HfsEd-ajacxbal4EQ" name="output: billing information"/>
+      <ownedAttribute xmi:id="_t6wW6XfsEd-ajacxbal4EQ" name="output: credit card information"/>
+      <ownedAttribute xmi:id="_t6wW6nfsEd-ajacxbal4EQ" name="checkbox: same">
+        <qualifier xmi:id="_t6wW63fsEd-ajacxbal4EQ" name="output: total"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_t6wW7HfsEd-ajacxbal4EQ" name="dynamic output: product information"/>
+      <ownedAttribute xmi:id="_t6wW7XfsEd-ajacxbal4EQ" name="btn: keepshopping"/>
+      <ownedAttribute xmi:id="_t6wW7nfsEd-ajacxbal4EQ" name="130.218.248.46"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1r70MHfsEd-ajacxbal4EQ" name="I dunno">
+      <ownedAttribute xmi:id="_1r70MXfsEd-ajacxbal4EQ" name="btn: end"/>
+      <ownedAttribute xmi:id="_1r70MnfsEd-ajacxbal4EQ" name="btn: login/logout"/>
+      <ownedAttribute xmi:id="_1r70M3fsEd-ajacxbal4EQ" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_1r70NHfsEd-ajacxbal4EQ" name="output: username">
+        <qualifier xmi:id="_1r70NXfsEd-ajacxbal4EQ" name="output: total"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1r70NnfsEd-ajacxbal4EQ" name="output: email"/>
+      <ownedAttribute xmi:id="_1r70N3fsEd-ajacxbal4EQ" name="output: recipient information"/>
+      <ownedAttribute xmi:id="_1r70OHfsEd-ajacxbal4EQ" name="output: billing information"/>
+      <ownedAttribute xmi:id="_1r70OXfsEd-ajacxbal4EQ" name="output: credit card information"/>
+      <ownedAttribute xmi:id="_1r70OnfsEd-ajacxbal4EQ" name="checkbox: same">
+        <qualifier xmi:id="_1r70O3fsEd-ajacxbal4EQ" name="output: total"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1r70PHfsEd-ajacxbal4EQ" name="dynamic output: product information"/>
+      <ownedAttribute xmi:id="_1r70PXfsEd-ajacxbal4EQ" name="btn: keepshopping"/>
+      <ownedAttribute xmi:id="_1r70PnfsEd-ajacxbal4EQ" name="10.2.0.201"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_EnplkHftEd-ajacxbal4EQ" name="i dunno">
+      <ownedAttribute xmi:id="_EnplkXftEd-ajacxbal4EQ" name="btn: checkout"/>
+      <ownedAttribute xmi:id="_EnplknftEd-ajacxbal4EQ" name="10.2.0.138"/>
+      <ownedAttribute xmi:id="_Enplk3ftEd-ajacxbal4EQ" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_EnpllHftEd-ajacxbal4EQ" name="btn: clear"/>
+      <ownedAttribute xmi:id="_EnpllXftEd-ajacxbal4EQ" name="btn: gotocart"/>
+      <ownedAttribute xmi:id="_EnpllnftEd-ajacxbal4EQ" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_Enpll3ftEd-ajacxbal4EQ" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_EnplmHftEd-ajacxbal4EQ" name="btn: keepshopping"/>
+      <ownedAttribute xmi:id="_EnplmXftEd-ajacxbal4EQ" name="btn: update"/>
+      <ownedAttribute xmi:id="_EnplmnftEd-ajacxbal4EQ" name="btn: checkout"/>
+      <ownedAttribute xmi:id="_Enplm3ftEd-ajacxbal4EQ" name="output: total"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_EnplnHftEd-ajacxbal4EQ" name="order.html"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HD9P8HftEd-ajacxbal4EQ" name="mroberts.kennesaw.edu">
+      <ownedAttribute xmi:id="_HD9P8XftEd-ajacxbal4EQ" name="btn: checkout"/>
+      <ownedAttribute xmi:id="_HD9P8nftEd-ajacxbal4EQ" name="130.218.62.48"/>
+      <ownedAttribute xmi:id="_HD9P83ftEd-ajacxbal4EQ" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_HD9P9HftEd-ajacxbal4EQ" name="btn: clear"/>
+      <ownedAttribute xmi:id="_HD9P9XftEd-ajacxbal4EQ" name="btn: gotocart"/>
+      <ownedAttribute xmi:id="_HD9P9nftEd-ajacxbal4EQ" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_HD9P93ftEd-ajacxbal4EQ" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_HD9P-HftEd-ajacxbal4EQ" name="btn: keepshopping"/>
+      <ownedAttribute xmi:id="_HD9P-XftEd-ajacxbal4EQ" name="btn: update"/>
+      <ownedAttribute xmi:id="_HD9P-nftEd-ajacxbal4EQ" name="btn: checkout"/>
+      <ownedAttribute xmi:id="_HD9P-3ftEd-ajacxbal4EQ" name="output: total"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_HD9P_HftEd-ajacxbal4EQ" name="order.html"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_KqIscHftEd-ajacxbal4EQ" name="i dunno">
+        <ownedAttribute xmi:id="_KqIscXftEd-ajacxbal4EQ" name="btn: checkout"/>
+        <ownedAttribute xmi:id="_KqIscnftEd-ajacxbal4EQ" name="10.2.0.138"/>
+        <ownedAttribute xmi:id="_KqIsc3ftEd-ajacxbal4EQ" name="dynamic table: product information"/>
+        <ownedAttribute xmi:id="_KqIsdHftEd-ajacxbal4EQ" name="btn: clear"/>
+        <ownedAttribute xmi:id="_KqIsdXftEd-ajacxbal4EQ" name="btn: gotocart"/>
+        <ownedAttribute xmi:id="_KqIsdnftEd-ajacxbal4EQ" name="links:  navbar"/>
+        <ownedAttribute xmi:id="_KqIsd3ftEd-ajacxbal4EQ" name="dynamic table: product information"/>
+        <ownedAttribute xmi:id="_KqIseHftEd-ajacxbal4EQ" name="btn: keepshopping"/>
+        <ownedAttribute xmi:id="_KqIseXftEd-ajacxbal4EQ" name="btn: update"/>
+        <ownedAttribute xmi:id="_KqIsenftEd-ajacxbal4EQ" name="btn: checkout"/>
+        <ownedAttribute xmi:id="_KqIse3ftEd-ajacxbal4EQ" name="output: total"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_KqIsfHftEd-ajacxbal4EQ" name="order.html"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Jj8gcHftEd-ajacxbal4EQ" name="i dunno">
+      <ownedAttribute xmi:id="_Jj8gcXftEd-ajacxbal4EQ" name="btn: checkout"/>
+      <ownedAttribute xmi:id="_Jj8gcnftEd-ajacxbal4EQ" name="10.2.0.138"/>
+      <ownedAttribute xmi:id="_Jj8gc3ftEd-ajacxbal4EQ" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_Jj8gdHftEd-ajacxbal4EQ" name="btn: clear"/>
+      <ownedAttribute xmi:id="_Jj8gdXftEd-ajacxbal4EQ" name="btn: gotocart"/>
+      <ownedAttribute xmi:id="_Jj8gdnftEd-ajacxbal4EQ" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_Jj8gd3ftEd-ajacxbal4EQ" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_Jj8geHftEd-ajacxbal4EQ" name="btn: keepshopping"/>
+      <ownedAttribute xmi:id="_Jj8geXftEd-ajacxbal4EQ" name="btn: update"/>
+      <ownedAttribute xmi:id="_Jj8genftEd-ajacxbal4EQ" name="btn: checkout"/>
+      <ownedAttribute xmi:id="_Jj8ge3ftEd-ajacxbal4EQ" name="output: total"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_Jj8gfHftEd-ajacxbal4EQ" name="order.html"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LJ_RMHftEd-ajacxbal4EQ" name="i dunno">
+      <ownedAttribute xmi:id="_LJ_RMXftEd-ajacxbal4EQ" name="btn: checkout"/>
+      <ownedAttribute xmi:id="_LJ_RMnftEd-ajacxbal4EQ" name="10.2.0.138"/>
+      <ownedAttribute xmi:id="_LJ_RM3ftEd-ajacxbal4EQ" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_LJ_RNHftEd-ajacxbal4EQ" name="btn: clear"/>
+      <ownedAttribute xmi:id="_LJ_RNXftEd-ajacxbal4EQ" name="btn: gotocart"/>
+      <ownedAttribute xmi:id="_LJ_RNnftEd-ajacxbal4EQ" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_LJ_RN3ftEd-ajacxbal4EQ" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_LJ_ROHftEd-ajacxbal4EQ" name="btn: keepshopping"/>
+      <ownedAttribute xmi:id="_LJ_ROXftEd-ajacxbal4EQ" name="btn: update"/>
+      <ownedAttribute xmi:id="_LJ_ROnftEd-ajacxbal4EQ" name="btn: checkout"/>
+      <ownedAttribute xmi:id="_LJ_RO3ftEd-ajacxbal4EQ" name="output: total"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_LJ_RPHftEd-ajacxbal4EQ" name="order.html"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YTs5cHftEd-ajacxbal4EQ" name="gayler.kennesaw.edu">
+      <ownedAttribute xmi:id="_YTs5cXftEd-ajacxbal4EQ" name="btn: end"/>
+      <ownedAttribute xmi:id="_YTs5cnftEd-ajacxbal4EQ" name="btn: login/logout"/>
+      <ownedAttribute xmi:id="_YTs5c3ftEd-ajacxbal4EQ" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_YTs5dHftEd-ajacxbal4EQ" name="output: username">
+        <qualifier xmi:id="_YTs5dXftEd-ajacxbal4EQ" name="output: total"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_YTs5dnftEd-ajacxbal4EQ" name="output: email"/>
+      <ownedAttribute xmi:id="_YTs5d3ftEd-ajacxbal4EQ" name="output: recipient information"/>
+      <ownedAttribute xmi:id="_YTs5eHftEd-ajacxbal4EQ" name="output: billing information"/>
+      <ownedAttribute xmi:id="_YTs5eXftEd-ajacxbal4EQ" name="output: credit card information"/>
+      <ownedAttribute xmi:id="_YTs5enftEd-ajacxbal4EQ" name="checkbox: same">
+        <qualifier xmi:id="_YTs5e3ftEd-ajacxbal4EQ" name="output: total"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_YTs5fHftEd-ajacxbal4EQ" name="dynamic output: product information"/>
+      <ownedAttribute xmi:id="_YTs5fXftEd-ajacxbal4EQ" name="btn: keepshopping"/>
+      <ownedAttribute xmi:id="_YTs5fnftEd-ajacxbal4EQ" name="130.218.248.46"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aDFzcHftEd-ajacxbal4EQ" name="Potential Subnetwork Center">
+      <generalization xmi:id="_88JAhHfuEd-ajacxbal4EQ" general="_8O11oHfuEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_9J-BJHfuEd-ajacxbal4EQ" general="_7FLe4HfuEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_9ZIehHfuEd-ajacxbal4EQ" general="_7olG4HfuEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_aDFzcXftEd-ajacxbal4EQ" name="btn: createcustomer"/>
+      <ownedAttribute xmi:id="_aDFzcnftEd-ajacxbal4EQ" name="btn: createusername"/>
+      <ownedAttribute xmi:id="_aDFzc3ftEd-ajacxbal4EQ" name="btn: updatecustomer"/>
+      <ownedAttribute xmi:id="_aDFzdHftEd-ajacxbal4EQ" name="btn: updateusername"/>
+      <ownedAttribute xmi:id="_aDFzdXftEd-ajacxbal4EQ" name="btn: deletecustomer"/>
+      <ownedAttribute xmi:id="_aDFzdnftEd-ajacxbal4EQ" name="btn: deleteusername"/>
+      <ownedAttribute xmi:id="_aDFzd3ftEd-ajacxbal4EQ" name="10.2.0.109"/>
+      <ownedAttribute xmi:id="_aDFzeHftEd-ajacxbal4EQ" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_aDFzeXftEd-ajacxbal4EQ" name="input: new product information"/>
+      <ownedAttribute xmi:id="_aDFzenftEd-ajacxbal4EQ" name="btn: createproduct"/>
+      <ownedAttribute xmi:id="_aDFze3ftEd-ajacxbal4EQ" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_aDFzfHftEd-ajacxbal4EQ" name="btn: updateproducts"/>
+      <ownedAttribute xmi:id="_aDFzfXftEd-ajacxbal4EQ" name="input: new customer information"/>
+      <ownedAttribute xmi:id="_aDFzfnftEd-ajacxbal4EQ" name="btn: createcustomer"/>
+      <ownedAttribute xmi:id="_aDFzf3ftEd-ajacxbal4EQ" name="dynamic table: customer information"/>
+      <ownedAttribute xmi:id="_aDFzgHftEd-ajacxbal4EQ" name="btn: updatecustomers"/>
+      <ownedAttribute xmi:id="_aDFzgXftEd-ajacxbal4EQ" name="dynamic table: sales records"/>
+      <ownedAttribute xmi:id="_aDFzgnftEd-ajacxbal4EQ" name="dynamic tables: purchases"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_c-IBMHftEd-ajacxbal4EQ" name="I dunno">
+      <ownedAttribute xmi:id="_c-IBMXftEd-ajacxbal4EQ" name="btn: createcustomer"/>
+      <ownedAttribute xmi:id="_c-IBMnftEd-ajacxbal4EQ" name="btn: createusername"/>
+      <ownedAttribute xmi:id="_c-IBM3ftEd-ajacxbal4EQ" name="btn: updatecustomer"/>
+      <ownedAttribute xmi:id="_c-IBNHftEd-ajacxbal4EQ" name="btn: updateusername"/>
+      <ownedAttribute xmi:id="_c-IBNXftEd-ajacxbal4EQ" name="btn: deletecustomer"/>
+      <ownedAttribute xmi:id="_c-IBNnftEd-ajacxbal4EQ" name="btn: deleteusername"/>
+      <ownedAttribute xmi:id="_c-IBN3ftEd-ajacxbal4EQ" name="10.2.0.165"/>
+      <ownedAttribute xmi:id="_c-IBOHftEd-ajacxbal4EQ" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_c-IBOXftEd-ajacxbal4EQ" name="input: new product information"/>
+      <ownedAttribute xmi:id="_c-IBOnftEd-ajacxbal4EQ" name="btn: createproduct"/>
+      <ownedAttribute xmi:id="_c-IBO3ftEd-ajacxbal4EQ" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_c-IBPHftEd-ajacxbal4EQ" name="btn: updateproducts"/>
+      <ownedAttribute xmi:id="_c-IBPXftEd-ajacxbal4EQ" name="input: new customer information"/>
+      <ownedAttribute xmi:id="_c-IBPnftEd-ajacxbal4EQ" name="btn: createcustomer"/>
+      <ownedAttribute xmi:id="_c-IBP3ftEd-ajacxbal4EQ" name="dynamic table: customer information"/>
+      <ownedAttribute xmi:id="_c-IBQHftEd-ajacxbal4EQ" name="btn: updatecustomers"/>
+      <ownedAttribute xmi:id="_c-IBQXftEd-ajacxbal4EQ" name="dynamic table: sales records"/>
+      <ownedAttribute xmi:id="_c-IBQnftEd-ajacxbal4EQ" name="dynamic tables: purchases"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ezJCEHftEd-ajacxbal4EQ" name="I dunno">
+      <ownedAttribute xmi:id="_p_u2UHftEd-ajacxbal4EQ" name="10.2.0.109"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_fvmqUHftEd-ajacxbal4EQ" name="Potential Subnetwork Center">
+      <generalization xmi:id="_0qS7k3ftEd-ajacxbal4EQ" general="_rhY2UHftEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_lPOUsHftEd-ajacxbal4EQ" name="10.2.0.118"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rhY2UHftEd-ajacxbal4EQ" name="science.kennesaw.edu">
+      <ownedAttribute xmi:id="_rhY2UXftEd-ajacxbal4EQ" name="130.218.241.70"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1voL8HftEd-ajacxbal4EQ" name="Intermediate Router">
+      <generalization xmi:id="_rVJUo3fuEd-ajacxbal4EQ" general="_bLcGIHfuEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_1voL8XftEd-ajacxbal4EQ" name="10.2.0.130"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-KwlMHftEd-ajacxbal4EQ" name="Potential Subnetwork Center">
+      <generalization xmi:id="_tS73BHfuEd-ajacxbal4EQ" general="_ekr54HfuEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_zghapHfuEd-ajacxbal4EQ" general="_t3LMgHfuEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_-KwlMXftEd-ajacxbal4EQ" name="10.2.0.54"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Bh6HMHfuEd-ajacxbal4EQ" name="Potential Subnetwork Center">
+      <generalization xmi:id="_4FNGw3fuEd-ajacxbal4EQ" general="_z2jVAHfuEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_Bh6HMXfuEd-ajacxbal4EQ" name="10.2.0.90"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JUZMEHfuEd-ajacxbal4EQ" name="unicoi.kennesaw.edu">
+      <ownedAttribute xmi:id="_JUZMEXfuEd-ajacxbal4EQ" name="130.218.251.40"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_NgcVwHfuEd-ajacxbal4EQ" name="buccaneer.kennesaw.edu">
+      <ownedAttribute xmi:id="_NgcVwXfuEd-ajacxbal4EQ" name="130.218.123.40"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bLcGIHfuEd-ajacxbal4EQ" name="Potential Subnetwork Center">
+      <generalization xmi:id="_rmaDxHfuEd-ajacxbal4EQ" general="_nDQBoHfuEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_bLcGIXfuEd-ajacxbal4EQ" name="10.2.35.22"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ekr54HfuEd-ajacxbal4EQ" name="edtech.kennesaw.edu">
+      <ownedAttribute xmi:id="_ekr54XfuEd-ajacxbal4EQ" name="130.218.134.31"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nDQBoHfuEd-ajacxbal4EQ" name="cpt-bly.kennesaw.edu">
+      <ownedAttribute xmi:id="_nDQBoXfuEd-ajacxbal4EQ" name="130.218.5.50"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_t3LMgHfuEd-ajacxbal4EQ" name="webtech.kennesaw.edu">
+      <ownedAttribute xmi:id="_t3LMgXfuEd-ajacxbal4EQ" name="130.218.134.33"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_z2jVAHfuEd-ajacxbal4EQ" name="designer.kennesaw.edu">
+      <ownedAttribute xmi:id="_z2jVAXfuEd-ajacxbal4EQ" name="130.218.50.48"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7FLe4HfuEd-ajacxbal4EQ" name="atlas.kennesaw.edu">
+      <ownedAttribute xmi:id="_7FLe4XfuEd-ajacxbal4EQ" name="130.218.100.16"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_7d_ngHfuEd-ajacxbal4EQ" name="I dunno">
+        <ownedAttribute xmi:id="_7d_ngXfuEd-ajacxbal4EQ" name="10.2.0.109"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7olG4HfuEd-ajacxbal4EQ" name="ksuweb.kennesaw.edu">
+      <ownedAttribute xmi:id="_7olG4XfuEd-ajacxbal4EQ" name="130.218.100.25"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8O11oHfuEd-ajacxbal4EQ" name="black-beard.kennesaw.edu">
+      <ownedAttribute xmi:id="_8O11oXfuEd-ajacxbal4EQ" name="130.218.100.5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_fNpscHfwEd-ajacxbal4EQ" name="Intermediate Router">
+      <generalization xmi:id="_qUhTNHfwEd-ajacxbal4EQ" general="_kI76sHfwEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_fNpscXfwEd-ajacxbal4EQ" name="130.218.1.245"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kI76sHfwEd-ajacxbal4EQ" name="Intermediate Router">
+      <generalization xmi:id="_bKKzdHfxEd-ajacxbal4EQ" general="_rgn58HfwEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_kI76sXfwEd-ajacxbal4EQ" name="130.218.1.148"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rgn58HfwEd-ajacxbal4EQ" name="Intermediate Router">
+      <generalization xmi:id="_bbnv1HfxEd-ajacxbal4EQ" general="_uK2rkHfwEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_rgn58XfwEd-ajacxbal4EQ" name="130.218.10.6"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uK2rkHfwEd-ajacxbal4EQ" name="Intermediate Router">
+      <generalization xmi:id="_brvPdHfxEd-ajacxbal4EQ" general="_wXVKMHfwEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_uK2rkXfwEd-ajacxbal4EQ" name="192.107.44.113"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wXVKMHfwEd-ajacxbal4EQ" name="Intermediate Router">
+      <generalization xmi:id="_b8_-lHfxEd-ajacxbal4EQ" general="_0B4JUHfwEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_wXVKMXfwEd-ajacxbal4EQ" name="131.144.208.17"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_0B4JUHfwEd-ajacxbal4EQ" name="Intermediate Router">
+      <generalization xmi:id="_cgYYdHfxEd-ajacxbal4EQ" general="_4_eEsHfwEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_0B4JUXfwEd-ajacxbal4EQ" name="131.144.101.42"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4_eEsHfwEd-ajacxbal4EQ" name="Intermediate Router">
+      <generalization xmi:id="_cwyL9HfxEd-ajacxbal4EQ" general="_7FRTkHfwEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_4_eEsXfwEd-ajacxbal4EQ" name="131.144.130.5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7FRTkHfwEd-ajacxbal4EQ" name="atlantaix.cox.com">
+      <generalization xmi:id="_c-5gdHfxEd-ajacxbal4EQ" general="__74dMHfwEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_7FRTkXfwEd-ajacxbal4EQ" name="198.32.132.19"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="__74dMHfwEd-ajacxbal4EQ" name="mtc1dsrj01-xe200.0.rd.om.cox.net">
+      <generalization xmi:id="_hxN_9HfxEd-ajacxbal4EQ" general="_Fq840HfxEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="__74dMXfwEd-ajacxbal4EQ" name="68.1.0.125"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Fq840HfxEd-ajacxbal4EQ" name="Intermediate Router">
+      <generalization xmi:id="_iCGUlHfxEd-ajacxbal4EQ" general="_LdQ1sHfxEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_Fq840XfxEd-ajacxbal4EQ" name="66.37.238.202"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LdQ1sHfxEd-ajacxbal4EQ" name="Intermediate Router">
+      <generalization xmi:id="_idwV1HfxEd-ajacxbal4EQ" general="_QnVG0HfxEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_LdQ1sXfxEd-ajacxbal4EQ" name="64.253.175.190"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QnVG0HfxEd-ajacxbal4EQ" name="Intermediate Router">
+      <generalization xmi:id="_iuij1HfxEd-ajacxbal4EQ" general="_TwpoMHfxEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_QnVG0XfxEd-ajacxbal4EQ" name="216.58.224.162"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_TwpoMHfxEd-ajacxbal4EQ" name="kenn.thecampushub.com">
+      <ownedAttribute xmi:id="_TwpoMXfxEd-ajacxbal4EQ" name="216.58.235.192"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uTLrsHfxEd-ajacxbal4EQ" name="time out">
+      <generalization xmi:id="_43Kn1XfxEd-ajacxbal4EQ" general="_w41fUHfxEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_uTLrsXfxEd-ajacxbal4EQ" name=""/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_w41fUHfxEd-ajacxbal4EQ" name="csisguru">
+      <ownedAttribute xmi:id="_w41fUXfxEd-ajacxbal4EQ" name="130.218.248.29"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_85_kEHfxEd-ajacxbal4EQ" name="time out">
+      <generalization xmi:id="_FLVIJHfyEd-ajacxbal4EQ" general="_BwCF8HfyEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_wMvF83pwEd-E3dFN_SwnJw" general="_w41fUHfxEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_85_kEXfxEd-ajacxbal4EQ" name=""/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BwCF8HfyEd-ajacxbal4EQ" name="kip.kennesaw.edu">
+      <ownedAttribute xmi:id="_BwCF8XfyEd-ajacxbal4EQ" name="130.218.62.33"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Lbrr4HfyEd-ajacxbal4EQ" name="time out">
+      <generalization xmi:id="_Y_DKRHfyEd-ajacxbal4EQ" general="_T4ITwHfyEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_Lbrr4XfyEd-ajacxbal4EQ" name=""/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_PSryoHfyEd-ajacxbal4EQ" name="Intermediate Router">
+      <generalization xmi:id="_S-n45HfyEd-ajacxbal4EQ" general="_Lbrr4HfyEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_PSryoXfyEd-ajacxbal4EQ" name="10.2.0.34"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_T4ITwHfyEd-ajacxbal4EQ" name="computerstore.kennesaw.edu">
+      <ownedAttribute xmi:id="_T4ITwXfyEd-ajacxbal4EQ" name="130.218.112.46"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_derXQHfyEd-ajacxbal4EQ" name="time out">
+      <generalization xmi:id="_o9Y2RHfyEd-ajacxbal4EQ" general="_ibTCQHfyEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_pjoW5HfyEd-ajacxbal4EQ" general="_h9EOIHfyEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_derXQXfyEd-ajacxbal4EQ" name=""/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_h9EOIHfyEd-ajacxbal4EQ" name="gandalf.kennesaw.edu">
+      <ownedAttribute xmi:id="_h9EOIXfyEd-ajacxbal4EQ" name="130.218.121.44"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_iRYRQHfyEd-ajacxbal4EQ" name="I dunno">
+        <ownedAttribute xmi:id="_iRYRQXfyEd-ajacxbal4EQ" name="10.2.0.109"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ibTCQHfyEd-ajacxbal4EQ" name="zuni.kennesaw.edu">
+      <ownedAttribute xmi:id="_ibTCQXfyEd-ajacxbal4EQ" name="130.218.121.77"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rqnxMHf1Ed-ajacxbal4EQ" name="Inactive Hosts">
+      <ownedAttribute xmi:id="_rqnxMXf1Ed-ajacxbal4EQ" name="silver"/>
+      <ownedAttribute xmi:id="_urSF0Hf1Ed-ajacxbal4EQ" name="sysa"/>
+      <ownedAttribute xmi:id="_vfKZ0Hf1Ed-ajacxbal4EQ" name="sysb"/>
+      <ownedAttribute xmi:id="_wLgicHf1Ed-ajacxbal4EQ" name="sysc"/>
+      <ownedAttribute xmi:id="_w4ngEHf1Ed-ajacxbal4EQ" name="boreal"/>
+      <ownedAttribute xmi:id="_x0ggkHf1Ed-ajacxbal4EQ" name="peoplesoft"/>
+      <ownedAttribute xmi:id="_ymSi0Hf1Ed-ajacxbal4EQ" name="pigseye"/>
+      <ownedAttribute xmi:id="_zpJG8Hf1Ed-ajacxbal4EQ" name="chastain"/>
+      <ownedAttribute xmi:id="_0hN-cHf1Ed-ajacxbal4EQ" name="greatowl"/>
+      <ownedAttribute xmi:id="_1YJmcHf1Ed-ajacxbal4EQ" name="plato"/>
+      <ownedAttribute xmi:id="_2K4q8Hf1Ed-ajacxbal4EQ" name="kachina"/>
+      <ownedAttribute xmi:id="_3B1hEHf1Ed-ajacxbal4EQ" name="selene.gisc"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6bI_MHf1Ed-ajacxbal4EQ" name="Time outs during Tracert">
+      <ownedAttribute xmi:id="_6bI_MXf1Ed-ajacxbal4EQ" name="kip"/>
+      <ownedAttribute xmi:id="_6bI_Mnf1Ed-ajacxbal4EQ" name="zuni"/>
+      <ownedAttribute xmi:id="_6bI_M3f1Ed-ajacxbal4EQ" name="gandalf"/>
+      <ownedAttribute xmi:id="_6bI_NHf1Ed-ajacxbal4EQ" name="csisguru"/>
+      <ownedAttribute xmi:id="_6bI_NXf1Ed-ajacxbal4EQ" name="computerstore"/>
+      <ownedAttribute xmi:id="_6bI_Nnf1Ed-ajacxbal4EQ" name="peoplesoft"/>
+      <ownedAttribute xmi:id="_6bI_N3f1Ed-ajacxbal4EQ" name="pigseye"/>
+      <ownedAttribute xmi:id="_6bI_OHf1Ed-ajacxbal4EQ" name="chastain"/>
+      <ownedAttribute xmi:id="_6bI_OXf1Ed-ajacxbal4EQ" name="greatowl"/>
+      <ownedAttribute xmi:id="_6bI_Onf1Ed-ajacxbal4EQ" name="plato"/>
+      <ownedAttribute xmi:id="_6bI_O3f1Ed-ajacxbal4EQ" name="kachina"/>
+      <ownedAttribute xmi:id="_6bI_PHf1Ed-ajacxbal4EQ" name="selene.gisc"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_N_f2AXpvEd-E3dFN_SwnJw" name="I dunno">
+      <generalization xmi:id="_N_f2AnpvEd-E3dFN_SwnJw" general="_7jCD0Dt6Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_N_f2A3pvEd-E3dFN_SwnJw" general="_b18xmDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_N_f2BHpvEd-E3dFN_SwnJw" general="_g8ploDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_N_f2BXpvEd-E3dFN_SwnJw" general="_tI7xwDt6Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_N_f2BnpvEd-E3dFN_SwnJw" general="_BANeMDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_N_f2B3pvEd-E3dFN_SwnJw" general="_Urt_iDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_N_f2CHpvEd-E3dFN_SwnJw" general="_t6wW4HfsEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_N_f2CXpvEd-E3dFN_SwnJw" general="_uTLrsHfxEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_N_f2CnpvEd-E3dFN_SwnJw" name="btn: order"/>
+      <ownedAttribute xmi:id="_N_f2C3pvEd-E3dFN_SwnJw" name="btn: salamanders"/>
+      <ownedAttribute xmi:id="_N_f2DHpvEd-E3dFN_SwnJw" name="btn: newts"/>
+      <ownedAttribute xmi:id="_N_f2DXpvEd-E3dFN_SwnJw" name="btn: aquatics"/>
+      <ownedAttribute xmi:id="_N_f2DnpvEd-E3dFN_SwnJw" name="btn: signout"/>
+      <ownedAttribute xmi:id="_N_f2D3pvEd-E3dFN_SwnJw" name="btn: index"/>
+      <ownedAttribute xmi:id="_N_f2EHpvEd-E3dFN_SwnJw" name="130.218.225.1"/>
+      <ownedAttribute xmi:id="_N_f2EXpvEd-E3dFN_SwnJw" name="dynamic input: product information"/>
+      <ownedAttribute xmi:id="_N_f2EnpvEd-E3dFN_SwnJw" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_N_f2E3pvEd-E3dFN_SwnJw" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_N_f2FHpvEd-E3dFN_SwnJw" name="btn: clear"/>
+      <ownedAttribute xmi:id="_N_f2FXpvEd-E3dFN_SwnJw" name="btn: gotocart"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O_6xMHpvEd-E3dFN_SwnJw" name="I dunno">
+      <generalization xmi:id="_O_6xMXpvEd-E3dFN_SwnJw" general="_7jCD0Dt6Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_O_6xMnpvEd-E3dFN_SwnJw" general="_b18xmDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_O_6xM3pvEd-E3dFN_SwnJw" general="_g8ploDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_O_6xNHpvEd-E3dFN_SwnJw" general="_tI7xwDt6Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_O_6xNXpvEd-E3dFN_SwnJw" general="_BANeMDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_O_6xNnpvEd-E3dFN_SwnJw" general="_Urt_iDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_O_6xN3pvEd-E3dFN_SwnJw" general="_t6wW4HfsEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_O_6xOHpvEd-E3dFN_SwnJw" general="_uTLrsHfxEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_O_6xOXpvEd-E3dFN_SwnJw" name="btn: order"/>
+      <ownedAttribute xmi:id="_O_6xOnpvEd-E3dFN_SwnJw" name="btn: salamanders"/>
+      <ownedAttribute xmi:id="_O_6xO3pvEd-E3dFN_SwnJw" name="btn: newts"/>
+      <ownedAttribute xmi:id="_O_6xPHpvEd-E3dFN_SwnJw" name="btn: aquatics"/>
+      <ownedAttribute xmi:id="_O_6xPXpvEd-E3dFN_SwnJw" name="btn: signout"/>
+      <ownedAttribute xmi:id="_O_6xPnpvEd-E3dFN_SwnJw" name="btn: index"/>
+      <ownedAttribute xmi:id="_O_6xP3pvEd-E3dFN_SwnJw" name="130.218.225.1"/>
+      <ownedAttribute xmi:id="_O_6xQHpvEd-E3dFN_SwnJw" name="dynamic input: product information"/>
+      <ownedAttribute xmi:id="_O_6xQXpvEd-E3dFN_SwnJw" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_O_6xQnpvEd-E3dFN_SwnJw" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_O_6xQ3pvEd-E3dFN_SwnJw" name="btn: clear"/>
+      <ownedAttribute xmi:id="_O_6xRHpvEd-E3dFN_SwnJw" name="btn: gotocart"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QJav4HpvEd-E3dFN_SwnJw" name="I dunno">
+      <generalization xmi:id="_QJav4XpvEd-E3dFN_SwnJw" general="_7jCD0Dt6Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_QJav4npvEd-E3dFN_SwnJw" general="_b18xmDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_QJav43pvEd-E3dFN_SwnJw" general="_g8ploDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_QJav5HpvEd-E3dFN_SwnJw" general="_tI7xwDt6Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_QJav5XpvEd-E3dFN_SwnJw" general="_BANeMDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_QJav5npvEd-E3dFN_SwnJw" general="_Urt_iDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_QJav53pvEd-E3dFN_SwnJw" general="_t6wW4HfsEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_QJav6HpvEd-E3dFN_SwnJw" general="_uTLrsHfxEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_QJav6XpvEd-E3dFN_SwnJw" name="btn: order"/>
+      <ownedAttribute xmi:id="_QJav6npvEd-E3dFN_SwnJw" name="btn: salamanders"/>
+      <ownedAttribute xmi:id="_QJav63pvEd-E3dFN_SwnJw" name="btn: newts"/>
+      <ownedAttribute xmi:id="_QJav7HpvEd-E3dFN_SwnJw" name="btn: aquatics"/>
+      <ownedAttribute xmi:id="_QJav7XpvEd-E3dFN_SwnJw" name="btn: signout"/>
+      <ownedAttribute xmi:id="_QJav7npvEd-E3dFN_SwnJw" name="btn: index"/>
+      <ownedAttribute xmi:id="_QJav73pvEd-E3dFN_SwnJw" name="130.218.225.1"/>
+      <ownedAttribute xmi:id="_QJav8HpvEd-E3dFN_SwnJw" name="dynamic input: product information"/>
+      <ownedAttribute xmi:id="_QJav8XpvEd-E3dFN_SwnJw" name="links:  navbar"/>
+      <ownedAttribute xmi:id="_QJav8npvEd-E3dFN_SwnJw" name="dynamic table: product information"/>
+      <ownedAttribute xmi:id="_QJav83pvEd-E3dFN_SwnJw" name="btn: clear"/>
+      <ownedAttribute xmi:id="_QJav9HpvEd-E3dFN_SwnJw" name="btn: gotocart"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RoLz8HpvEd-E3dFN_SwnJw" name="Potential Subenetwork Center">
+      <generalization xmi:id="_aD74RHpvEd-E3dFN_SwnJw" general="_7jCD0Dt6Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_v2RGs3pwEd-E3dFN_SwnJw" general="_85_kEHfxEd-ajacxbal4EQ"/>
+      <generalization xmi:id="__8-Eg3pwEd-E3dFN_SwnJw" general="_BANeMDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_6Txx83pxEd-E3dFN_SwnJw" general="_t6wW4HfsEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_Uk-VMHpvEd-E3dFN_SwnJw" name="10.2.0.166"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VAfzkHpvEd-E3dFN_SwnJw" name="i dunno">
+      <ownedAttribute xmi:id="_VAfzkXpvEd-E3dFN_SwnJw" name="10.2.0.138"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bLCqQHpvEd-E3dFN_SwnJw" name="Potential Subnetwork Center">
+      <generalization xmi:id="_haDxRHpvEd-E3dFN_SwnJw" general="_RoLz8HpvEd-E3dFN_SwnJw"/>
+      <generalization xmi:id="_Liwb43pxEd-E3dFN_SwnJw" general="_Urt_iDt7Ed-mh7NwBQfiOw"/>
+      <generalization xmi:id="_RCCSk3pyEd-E3dFN_SwnJw" general="_aDFzcHftEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_XD1nhHpzEd-E3dFN_SwnJw" general="_1voL8HftEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_mFN8A3pzEd-E3dFN_SwnJw" general="_-KwlMHftEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_-A-xk3pzEd-E3dFN_SwnJw" general="_Bh6HMHfuEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_NaAxE3p0Ed-E3dFN_SwnJw" general="_fvmqUHftEd-ajacxbal4EQ"/>
+      <generalization xmi:id="_r--vQ3p0Ed-E3dFN_SwnJw" general="_fNpscHfwEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_bLCqQXpvEd-E3dFN_SwnJw" name="10.2.0.13"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_h67psHpvEd-E3dFN_SwnJw" name="Intermediate Router">
+      <generalization xmi:id="_kB4IFHpvEd-E3dFN_SwnJw" general="_bLCqQHpvEd-E3dFN_SwnJw"/>
+      <ownedAttribute xmi:id="_h67psXpvEd-E3dFN_SwnJw" name="10.2.2.81"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lc7JwHpvEd-E3dFN_SwnJw" name="Intermediate Router">
+      <generalization xmi:id="_skwvI3pvEd-E3dFN_SwnJw" general="_h67psHpvEd-E3dFN_SwnJw"/>
+      <generalization xmi:id="_7cMoBHpwEd-E3dFN_SwnJw" general="_2_vq0HpwEd-E3dFN_SwnJw"/>
+      <ownedAttribute xmi:id="_lc7JwXpvEd-E3dFN_SwnJw" name="130.218.18.1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pH1VQHpvEd-E3dFN_SwnJw" name="Local Area Point">
+      <generalization xmi:id="_sU_01XpvEd-E3dFN_SwnJw" general="_lc7JwHpvEd-E3dFN_SwnJw"/>
+      <ownedAttribute xmi:id="_pH1VQXpvEd-E3dFN_SwnJw" name="10.230.72.1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tdS5oHpvEd-E3dFN_SwnJw" name="Me @ Clendenin Building">
+      <generalization xmi:id="_w3sj9HpvEd-E3dFN_SwnJw" general="_pH1VQHpvEd-E3dFN_SwnJw"/>
+      <ownedAttribute xmi:id="_tdS5oXpvEd-E3dFN_SwnJw" name="130.218.18.4"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2_vq0HpwEd-E3dFN_SwnJw" name="Intermediate Router">
+      <generalization xmi:id="_7tKcM3pwEd-E3dFN_SwnJw" general="_bLCqQHpvEd-E3dFN_SwnJw"/>
+      <generalization xmi:id="_lfqCw3pxEd-E3dFN_SwnJw" general="_Y_QdQHpxEd-E3dFN_SwnJw"/>
+      <ownedAttribute xmi:id="_2_vq0XpwEd-E3dFN_SwnJw" name="10.2.4.81"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Y_QdQHpxEd-E3dFN_SwnJw" name="Intermediate Router">
+      <generalization xmi:id="_k4iYZHpxEd-E3dFN_SwnJw" general="_hUm-oHpxEd-E3dFN_SwnJw"/>
+      <generalization xmi:id="_f7h2ZHpyEd-E3dFN_SwnJw" general="_aSdVEHpyEd-E3dFN_SwnJw"/>
+      <generalization xmi:id="_ckA2E3p0Ed-E3dFN_SwnJw" general="_XzefQHp0Ed-E3dFN_SwnJw"/>
+      <ownedAttribute xmi:id="_Y_QdQXpxEd-E3dFN_SwnJw" name="10.2.0.21"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hUm-oHpxEd-E3dFN_SwnJw" name="Intermediate Router">
+      <generalization xmi:id="_kfrzhHpxEd-E3dFN_SwnJw" general="_derXQHfyEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_hUm-oXpxEd-E3dFN_SwnJw" name="10.2.0.105"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aSdVEHpyEd-E3dFN_SwnJw" name="Intermediate Router">
+      <generalization xmi:id="_godN03pyEd-E3dFN_SwnJw" general="_8O11oHfuEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_aSdVEXpyEd-E3dFN_SwnJw" name="10.2.0.205"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_T1CwQHpzEd-E3dFN_SwnJw" name="i dunno">
+      <generalization xmi:id="_ahzjM3pzEd-E3dFN_SwnJw" general="_bLcGIHfuEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_T1CwQXpzEd-E3dFN_SwnJw" name="10.2.0.130"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3bz0YHpzEd-E3dFN_SwnJw" name="i dunno">
+      <ownedAttribute xmi:id="_3bz0YXpzEd-E3dFN_SwnJw" name="10.2.0.138"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_XzefQHp0Ed-E3dFN_SwnJw" name="Intermediate Router">
+      <generalization xmi:id="_aqUwlHp0Ed-E3dFN_SwnJw" general="_Lbrr4HfyEd-ajacxbal4EQ"/>
+      <ownedAttribute xmi:id="_XzefQXp0Ed-E3dFN_SwnJw" name="10.2.0.38"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ypXjQHFzEduxYLkhQoh7Ag" name="Component View">
+    <packagedElement xmi:type="uml:Component" xmi:id="_zwUu0HF0EduxYLkhQoh7Ag" name="Main"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1coVEHFzEduxYLkhQoh7Ag" name="Deployment View"/>
+</uml:Model>
